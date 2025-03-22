@@ -1,0 +1,62 @@
+version: "3.7"
+
+services:
+  postgres-base: &database-base
+    image: postgres:17.0-alpine
+    environment:
+      POSTGRES_DB: sellio
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      PGDATA: /var/lib/postgresql/data
+      TZ: "Europe/Kiev"
+    restart: unless-stopped
+
+  postgres:
+    <<: *database-base
+    command: -p 5432
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  postgres-test:
+    <<: *database-base
+    command: -p 5433
+    ports:
+      - "5433:5433"
+
+  sellio:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: dev
+    tty: true
+    init: true
+    stdin_open: true
+    volumes:
+      - ./sellio:/app/sellio
+      - ./config:/app/config
+      - ./pyproject.toml:/app/pyproject.toml
+      - ./uv.lock:/app/uv.lock
+    ports:
+      - 8080:8080
+    depends_on:
+      - postgres
+    develop:
+      watch:
+        - action: rebuild
+          path: pyproject.toml
+    command:
+      [
+        "fastapi",
+        "dev",
+        "sellio/main.py",
+        "--reload",
+        "--host",
+        "0.0.0.0",
+        "--port",
+        "8080"
+      ]
+
+volumes:
+  postgres_data:
