@@ -1,6 +1,6 @@
 [main_db]
-db = 'loldb1'
-host = 'lolhost2'
-port = 'lolport3'
-user = 'loluser4'
-password = 'lolpassword5'
+db = 'sellio'
+host = '127.0.0.1'
+port = '5432'
+user = 'postgres'
+password = 'postgres'

@@ -14,10 +14,9 @@ from starlette.requests import Request
 from starlette.responses import HTMLResponse
 from starlette.templating import Jinja2Templates
 
-from sellio.deps import ConfigDependency
 from sellio.graph.schema import SCHEMA
 
-router = APIRouter()
+router = APIRouter(tags=["GraphQL"])
 log = logging.getLogger(__name__)
 
 DEFAULT_ERROR_MESSAGE = "Unexpected error occurred."

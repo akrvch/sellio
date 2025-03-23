@@ -6,6 +6,9 @@ indent-width = 4
 [lint]
 extend-select = ["I"]
 
+[lint.per-file-ignores]
+"sellio/models/__init__.py" = ["E402", "F401"]
+
 [lint.isort]
 force-single-line = true
 

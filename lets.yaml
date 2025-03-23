@@ -1,0 +1,64 @@
+version: "0.0.42"
+shell: bash
+
+commands:
+  build:
+    description: Build service image
+    options: |
+      Usage:
+        lets build [--no-cache] <service>...
+      Options:
+        --no-cache                          Rebuild even cached layers
+        <service>                           Names of services to rebuild
+    cmd: |
+      if [ -n "$LETSOPT_NO_CACHE" ]; then
+        docker compose build $LETSOPT_SERVICE --no-cache
+      else
+        docker compose build $LETSOPT_SERVICE
+      fi;
+
+  build-sellio:
+    description: Build main app image
+    options: |
+      Usage:
+        lets build-sellio [--no-cache]
+      Options:
+        --no-cache                          Rebuild even cached layers
+    cmd: |
+      if [ -n "$LETSOPT_NO_CACHE" ]; then
+        lets build sellio --no-cache
+      else
+        lets build sellio
+      fi;
+
+  build-postgres:
+    description: Build main app image
+    options: |
+      Usage:
+        lets build-postgres [--no-cache]
+      Options:
+        --no-cache                          Rebuild even cached layers
+    cmd: |
+      if [ -n "$LETSOPT_NO_CACHE" ]; then
+        lets build postgres --no-cache
+      else
+        lets build postgres
+      fi;
+
+  run:
+    description: Run sellio app with required services
+    depends:
+      - build-sellio
+      - build-postgres
+    options: |
+      Usage:
+       lets run [--environ=<env>] [--watch]
+      Options:
+        --environ=<env>, -E                 Set environment (default dev)
+        --watch, -w                         Run with watchfiles
+    cmd: |
+      if [ -n "$LETSOPT_WATCH" ]; then
+        docker compose up sellio postgres --watch
+      else
+        docker compose up sellio postgres
+      fi;

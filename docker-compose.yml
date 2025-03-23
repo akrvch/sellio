@@ -40,8 +40,6 @@ services:
       - ./uv.lock:/app/uv.lock
     ports:
       - 8080:8080
-    depends_on:
-      - postgres
     develop:
       watch:
         - action: rebuild

@@ -4,7 +4,9 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from typing_extensions import TypedDict
 
-from sellio.graph.endpoint import router
+from sellio.api import router as api_router
+from sellio.graph.endpoint import router as graph_router
+from sellio.services.db import sessionmanager
 from sellio.settings import Config
 
 
@@ -18,6 +20,8 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[AppState, None]:
         config=app.state.config,
     )
     yield state
+    if sessionmanager._engine is not None:
+        await sessionmanager.close()
 
 
 def make_app() -> FastAPI:
@@ -26,7 +30,8 @@ def make_app() -> FastAPI:
         lifespan=lifespan,
     )
     app.state.config = config
-    app.include_router(router, tags=["GraphQL"])
+    app.include_router(graph_router)
+    app.include_router(api_router)
     return app
 
 

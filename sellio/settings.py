@@ -9,6 +9,8 @@ from pydantic_settings import PydanticBaseSettingsSource
 from pydantic_settings import SettingsConfigDict
 from pydantic_settings import TomlConfigSettingsSource
 
+from sellio.utils import get_sql_alchemy_db_url
+
 CONFIG_PATH = Path(__file__).parent.parent / "config/{}.toml".format(
     os.environ["SELLIO__ENV"]
 )
@@ -19,7 +21,17 @@ class DbConfig(BaseModel):
     host: str
     port: str
     user: SecretStr
-    password: str
+    password: SecretStr
+
+    @property
+    def url(self) -> str:
+        return get_sql_alchemy_db_url(
+            user=self.user.get_secret_value(),
+            password=self.password.get_secret_value(),
+            host=self.host,
+            port=self.port,
+            db=self.db,
+        )
 
 
 class Config(BaseSettings):
