@@ -1,0 +1,303 @@
+[
+  {
+    "id": 1,
+    "name": "Одяг Та Взуття",
+    "description": "Головна категорія одягу та взуття",
+    "parent_category_id": null,
+    "is_adult": false
+  },
+  {
+    "id": 2,
+    "name": "Одяг",
+    "description": "Категорія одягу",
+    "parent_category_id": 1,
+    "is_adult": false
+  },
+  {
+    "id": 3,
+    "name": "Чоловічий Одяг",
+    "description": "Одяг для чоловіків",
+    "parent_category_id": 2,
+    "is_adult": false
+  },
+  {
+    "id": 4,
+    "name": "Жіночий Одяг",
+    "description": "Одяг для жінок",
+    "parent_category_id": 2,
+    "is_adult": false
+  },
+  {
+    "id": 5,
+    "name": "Дитячий Одяг",
+    "description": "Одяг для дітей",
+    "parent_category_id": 2,
+    "is_adult": false
+  },
+  {
+    "id": 6,
+    "name": "Нижня Білизна",
+    "description": "Нижня білизна для всіх",
+    "parent_category_id": 2,
+    "is_adult": false
+  },
+  {
+    "id": 7,
+    "name": "Головні Убори",
+    "description": "Головні убори для всіх",
+    "parent_category_id": 2,
+    "is_adult": false
+  },
+  {
+    "id": 8,
+    "name": "Чоловічі Футболки",
+    "description": "Футболки для чоловіків",
+    "parent_category_id": 3,
+    "is_adult": false
+  },
+  {
+    "id": 9,
+    "name": "Чоловічі Штани",
+    "description": "Штани для чоловіків",
+    "parent_category_id": 3,
+    "is_adult": false
+  },
+  {
+    "id": 10,
+    "name": "Чоловічі Спортивні Костюми",
+    "description": "Спортивні костюми для чоловіків",
+    "parent_category_id": 3,
+    "is_adult": false
+  },
+  {
+    "id": 11,
+    "name": "Жіночі Сукні",
+    "description": "Сукні для жінок",
+    "parent_category_id": 4,
+    "is_adult": false
+  },
+  {
+    "id": 12,
+    "name": "Жіночі Блузи",
+    "description": "Блузи для жінок",
+    "parent_category_id": 4,
+    "is_adult": false
+  },
+  {
+    "id": 13,
+    "name": "Жіночі Спідниці",
+    "description": "Спідниці для жінок",
+    "parent_category_id": 4,
+    "is_adult": false
+  },
+  {
+    "id": 14,
+    "name": "Жіночі Штани",
+    "description": "Штани для жінок",
+    "parent_category_id": 4,
+    "is_adult": false
+  },
+  {
+    "id": 15,
+    "name": "Дитячі Костюми",
+    "description": "Костюми для дітей",
+    "parent_category_id": 5,
+    "is_adult": false
+  },
+  {
+    "id": 16,
+    "name": "Дитячі Светри",
+    "description": "Светри для дітей",
+    "parent_category_id": 5,
+    "is_adult": false
+  },
+  {
+    "id": 17,
+    "name": "Дитячі Штани",
+    "description": "Штани для дітей",
+    "parent_category_id": 5,
+    "is_adult": false
+  },
+  {
+    "id": 18,
+    "name": "Чоловіча Нижня Білизна",
+    "description": "Нижня білизна для чоловіків",
+    "parent_category_id": 6,
+    "is_adult": false
+  },
+  {
+    "id": 19,
+    "name": "Жіноча Нижня Білизна",
+    "description": "Нижня білизна для жінок",
+    "parent_category_id": 6,
+    "is_adult": false
+  },
+  {
+    "id": 20,
+    "name": "Дитяча Нижня Білизна",
+    "description": "Нижня білизна для дітей",
+    "parent_category_id": 6,
+    "is_adult": false
+  },
+  {
+    "id": 21,
+    "name": "Чоловічі Капелюхи",
+    "description": "Капелюхи для чоловіків",
+    "parent_category_id": 7,
+    "is_adult": false
+  },
+  {
+    "id": 22,
+    "name": "Жіночі Капелюхи",
+    "description": "Капелюхи для жінок",
+    "parent_category_id": 7,
+    "is_adult": false
+  },
+  {
+    "id": 23,
+    "name": "Дитячі Капелюхи",
+    "description": "Капелюхи для дітей",
+    "parent_category_id": 7,
+    "is_adult": false
+  },
+  {
+    "id": 24,
+    "name": "Шапки",
+    "description": "Шапки для всіх",
+    "parent_category_id": 7,
+    "is_adult": false
+  },
+  {
+    "id": 25,
+    "name": "Взуття",
+    "description": "Категорія взуття",
+    "parent_category_id": 1,
+    "is_adult": false
+  },
+  {
+    "id": 26,
+    "name": "Чоловіче Взуття",
+    "description": "Взуття для чоловіків",
+    "parent_category_id": 25,
+    "is_adult": false
+  },
+  {
+    "id": 27,
+    "name": "Жіноче Взуття",
+    "description": "Взуття для жінок",
+    "parent_category_id": 25,
+    "is_adult": false
+  },
+  {
+    "id": 28,
+    "name": "Дитяче Взуття",
+    "description": "Взуття для дітей",
+    "parent_category_id": 25,
+    "is_adult": false
+  },
+  {
+    "id": 29,
+    "name": "Чоловічі Кросівки",
+    "description": "Кросівки для чоловіків",
+    "parent_category_id": 26,
+    "is_adult": false
+  },
+  {
+    "id": 30,
+    "name": "Чоловічі Туфлі",
+    "description": "Туфлі для чоловіків",
+    "parent_category_id": 26,
+    "is_adult": false
+  },
+  {
+    "id": 31,
+    "name": "Чоловічі Черевики",
+    "description": "Черевики для чоловіків",
+    "parent_category_id": 26,
+    "is_adult": false
+  },
+  {
+    "id": 32,
+    "name": "Жіночі Кросівки",
+    "description": "Кросівки для жінок",
+    "parent_category_id": 27,
+    "is_adult": false
+  },
+  {
+    "id": 33,
+    "name": "Жіночі Туфлі",
+    "description": "Туфлі для жінок",
+    "parent_category_id": 27,
+    "is_adult": false
+  },
+  {
+    "id": 34,
+    "name": "Жіночі Чоботи",
+    "description": "Чоботи для жінок",
+    "parent_category_id": 27,
+    "is_adult": false
+  },
+  {
+    "id": 35,
+    "name": "Дитячі Кросівки",
+    "description": "Кросівки для дітей",
+    "parent_category_id": 28,
+    "is_adult": false
+  },
+  {
+    "id": 36,
+    "name": "Дитячі Сандалі",
+    "description": "Сандалі для дітей",
+    "parent_category_id": 28,
+    "is_adult": false
+  },
+  {
+    "id": 37,
+    "name": "Дитячі Ботильйони",
+    "description": "Ботильйони для дітей",
+    "parent_category_id": 28,
+    "is_adult": false
+  },
+  {
+    "id": 38,
+    "name": "Аксесуари",
+    "description": "Аксесуари для одягу та взуття",
+    "parent_category_id": 1,
+    "is_adult": false
+  },
+  {
+    "id": 39,
+    "name": "Годинники",
+    "description": "Годинники як аксесуар",
+    "parent_category_id": 38,
+    "is_adult": false
+  },
+  {
+    "id": 40,
+    "name": "Сумки",
+    "description": "Сумки та портфелі",
+    "parent_category_id": 38,
+    "is_adult": false
+  },
+  {
+    "id": 41,
+    "name": "Прикраси",
+    "description": "Прикраси та біжутерія",
+    "parent_category_id": 38,
+    "is_adult": false
+  },
+  {
+    "id": 42,
+    "name": "Ремені",
+    "description": "Ремені для одягу",
+    "parent_category_id": 38,
+    "is_adult": false
+  },
+  {
+    "id": 43,
+    "name": "Шарфи",
+    "description": "Шарфи та хустки",
+    "parent_category_id": 38,
+    "is_adult": false
+  }
+]

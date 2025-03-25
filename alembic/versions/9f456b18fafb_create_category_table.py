@@ -27,7 +27,7 @@ def upgrade() -> None:
         sa.Column("id", sa.Integer(), autoincrement=True, nullable=False),
         sa.Column("name", sa.String(length=120), nullable=False),
         sa.Column("description", sa.Text(), nullable=False),
-        sa.Column("parent_category_id", sa.Integer(), nullable=False),
+        sa.Column("parent_category_id", sa.Integer(), nullable=True),
         sa.Column("is_adult", sa.Boolean(), nullable=False),
         sa.ForeignKeyConstraint(
             ["parent_category_id"],
