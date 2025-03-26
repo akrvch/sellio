@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "first_name": "Олександр",
+    "second_name": "Іванович",
+    "last_name": "Ковальчук",
+    "email": "oleksandr1990@example.com",
+    "phone": "+380731000001",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$TqGNSUB8DpAg1vkgU3MR6Q$k60ZouvqUr/GaowtA6JpBMWOXAj1gv7z7Mo9zo21rjg",
+    "is_superuser": false
+  },
+  {
+    "id": 2,
+    "first_name": "Іван",
+    "second_name": "Петрович",
+    "last_name": "Шевченко",
+    "email": "ivan1985@example.com",
+    "phone": "+380731000002",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$NF9MtJHfZVS7b1M0Ofvq4A$IHcV37Q5jotEmJb0P8ugQEw4O2ei7zgjwli2focvt9s",
+    "is_superuser": false
+  },
+  {
+    "id": 3,
+    "first_name": "Дмитро",
+    "second_name": "Миколайович",
+    "last_name": "Кравченко",
+    "email": "dmytro1988@example.com",
+    "phone": "+380731000003",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$/G60c+82tUG7QtD1xw/ojg$J0WNnvYOCCyBrcCg2Ywj6388pAKUlONYsX83jGWAKGw",
+    "is_superuser": false
+  },
+  {
+    "id": 4,
+    "first_name": "Андрій",
+    "second_name": "Сергійович",
+    "last_name": "Бойко",
+    "email": "andriy1992@example.com",
+    "phone": "+380731000004",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$4dUYrKz6McIhBeNsTFog/A$z0mJrJKcNJzfVMBD6NAUk7zZzQY+AKBSqRejY25diLM",
+    "is_superuser": false
+  },
+  {
+    "id": 5,
+    "first_name": "Михайло",
+    "second_name": "Олександрович",
+    "last_name": "Лещенко",
+    "email": "mykhailo1982@example.com",
+    "phone": "+380731000005",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$fhhxQLwZCSpdaWRSRlmImw$29v0SKIQnBAeesExZk2BY2IUC4wZS7BD7E8vs98jwqI",
+    "is_superuser": false
+  },
+  {
+    "id": 6,
+    "first_name": "Володимир",
+    "second_name": "Юрійович",
+    "last_name": "Мельник",
+    "email": "volodymyr1995@example.com",
+    "phone": "+380731000006",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$RkNQCAKy7Hcwt8CtUSLW3g$qKl9a8je5Pb0YdV03xd+JFQqcGxe3zXu3IdRmWJ2wu0",
+    "is_superuser": false
+  },
+  {
+    "id": 7,
+    "first_name": "Сергій",
+    "second_name": "Васильович",
+    "last_name": "Сидоренко",
+    "email": "serhiy1987@example.com",
+    "phone": "+380731000007",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$NcD1q1hnfQvo75E2Y5kmGA$WZLdeWAyJuV/8K7jiQxRriFLn8Bjm3I0pbBP6eVL9/Q",
+    "is_superuser": false
+  },
+  {
+    "id": 8,
+    "first_name": "Павло",
+    "second_name": "Данилович",
+    "last_name": "Ткаченко",
+    "email": "pavlo1991@example.com",
+    "phone": "+380731000008",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$d20lwG/MomjcpWTJmFa8Hw$TL5yxpR92SuVZTuMn2HFilGcPcRm7LpmtRndGI1+xOQ",
+    "is_superuser": false
+  },
+  {
+    "id": 9,
+    "first_name": "Олег",
+    "second_name": "Михайлович",
+    "last_name": "Руденко",
+    "email": "oleg1989@example.com",
+    "phone": "+380731000009",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$NWhRK5BpcFS6WvbRRnkxsA$MG1CJjRySyGttUuVfdyYpBvq0QKLRkbRNzvtscagr3Y",
+    "is_superuser": false
+  },
+  {
+    "id": 10,
+    "first_name": "Юрій",
+    "second_name": "Іванович",
+    "last_name": "Зінченко",
+    "email": "yuriy1993@example.com",
+    "phone": "+380731000010",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$vUZQcv09RjZHI3WLMTLq5A$htb1xdy9/KYc9Xs+wPisHIthUrN+jL//f2SGK0bnfNM",
+    "is_superuser": false
+  },
+  {
+    "id": 11,
+    "first_name": "Максим",
+    "second_name": "Павлович",
+    "last_name": "Мартиненко",
+    "email": "maksym1990@example.com",
+    "phone": "+380731000011",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$I1ZhqeyR8MIRbgd6IQ/Afg$fdZolYPazMEVvP1k/RMv2r9AzlR6n5jg5c2NVk1v8/g",
+    "is_superuser": false
+  },
+  {
+    "id": 12,
+    "first_name": "Артем",
+    "second_name": "Володимирович",
+    "last_name": "Кравець",
+    "email": "artem1986@example.com",
+    "phone": "+380731000012",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$Wlj8K6w/X+m2ZcjLwqoLqA$LrQXQuFvGiJJOI8uDGpfMfgK+ADne/Xnycti70B/a40",
+    "is_superuser": false
+  },
+  {
+    "id": 13,
+    "first_name": "Віктор",
+    "second_name": "Олегович",
+    "last_name": "Гнатюк",
+    "email": "viktor1994@example.com",
+    "phone": "+380731000013",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$fLu2sGyAp1zV4OxX5AblKQ$B8nS8CwQvkApb0Yl2LXiMaNEwxQMdmcDpu187UwFy2U",
+    "is_superuser": false
+  },
+  {
+    "id": 14,
+    "first_name": "Степан",
+    "second_name": "Сергійович",
+    "last_name": "Єрмак",
+    "email": "stepan1983@example.com",
+    "phone": "+380731000014",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$ktXgSy12+r238gy+EiRA+g$400sSr1duoxK6wggjwu2iZhR7ZlcVzd9L7PnEKWZmCc",
+    "is_superuser": false
+  },
+  {
+    "id": 15,
+    "first_name": "Євген",
+    "second_name": "Васильович",
+    "last_name": "Бондаренко",
+    "email": "yevhen1991@example.com",
+    "phone": "+380731000015",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$E3IGCbtGLXIxa7J5rrQtZA$VATIEbHgEIeMjn8bkcvMrXrWkVnsyXlA0dJuHNB0Bq4",
+    "is_superuser": false
+  },
+  {
+    "id": 16,
+    "first_name": "Олександр",
+    "second_name": "Петрович",
+    "last_name": "Довженко",
+    "email": "oleksandr1988@example.com",
+    "phone": "+380731000016",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$LM93x7jBQXBM0O0bKCKWsA$zwOCw0dDqIsbJwvfF/xk5EC805+Ktu0enmvd20IkvcI",
+    "is_superuser": false
+  },
+  {
+    "id": 17,
+    "first_name": "Іван",
+    "second_name": "Миколайович",
+    "last_name": "Мороз",
+    "email": "ivan1990@example.com",
+    "phone": "+380731000017",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$N1boPMMAdU/yQZSGHm6qCQ$I3izuArYtv3tzSDnFz9IZfbuSC/epNDQnGlsRWin7sQ",
+    "is_superuser": false
+  },
+  {
+    "id": 18,
+    "first_name": "Дмитро",
+    "second_name": "Олександрович",
+    "last_name": "Гриценко",
+    "email": "dmytro1987@example.com",
+    "phone": "+380731000018",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$etJq2BsxeMocPzfdc0klwQ$xFNdxv8LG1otwg06lWVZBNxQNTMOXfqu0ZhAwqMpEz0",
+    "is_superuser": false
+  },
+  {
+    "id": 19,
+    "first_name": "Андрій",
+    "second_name": "Вікторович",
+    "last_name": "Симоненко",
+    "email": "andriy1993@example.com",
+    "phone": "+380731000019",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$3OQ7fjor0iRFCzTGUrRZeQ$P9bnv/6Spy0SE7J/v5eDvt75ZJh40g3O05DSc2w36Gs",
+    "is_superuser": false
+  },
+  {
+    "id": 20,
+    "first_name": "Михайло",
+    "second_name": "Степанович",
+    "last_name": "Назаренко",
+    "email": "mykhailo1985@example.com",
+    "phone": "+380731000020",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$i2RzMOUu7DdWJ7uAqmvIWg$/1Hui6NaaCaNGzH4WMboF/t2BQjM/r6sF/5PN5tJKTY",
+    "is_superuser": false
+  },
+  {
+    "id": 21,
+    "first_name": "Володимир",
+    "second_name": "Юрійович",
+    "last_name": "Тимошенко",
+    "email": "volodymyr1992@example.com",
+    "phone": "+380731000021",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$nqLvC7B96pBEP7fc6xcQsw$Hxf9+ygMYHQObG/gWbq+bS2othrI5B3VswIG+cRHtJ8",
+    "is_superuser": false
+  },
+  {
+    "id": 22,
+    "first_name": "Сергій",
+    "second_name": "Петрович",
+    "last_name": "Федоренко",
+    "email": "serhiy1989@example.com",
+    "phone": "+380731000022",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$M8B5UH6FRCqSqi7ImwuEFw$FkOF8/D5271tLcNp2bdFUUu41vwCDVnUVRMzNg3MMJA",
+    "is_superuser": false
+  },
+  {
+    "id": 23,
+    "first_name": "Павло",
+    "second_name": "Олександрович",
+    "last_name": "Литвин",
+    "email": "pavlo1994@example.com",
+    "phone": "+380731000023",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$uBLwSS7d8+fNy5fJcY+VXQ$LjSsgEIVlNoqJsHYWrdcPMqXhYnnUUJ47uM9dD8EU20",
+    "is_superuser": false
+  },
+  {
+    "id": 24,
+    "first_name": "Олег",
+    "second_name": "Іванович",
+    "last_name": "Дорошенко",
+    "email": "oleg1983@example.com",
+    "phone": "+380731000024",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$/YyG5Z9XURzbsVaP2+Gl6A$KFMF4u/1IXEtWFfxqKo9RdnQstXTQEalqJ5sU1XK4WY",
+    "is_superuser": false
+  },
+  {
+    "id": 25,
+    "first_name": "Юрій",
+    "second_name": "Васильович",
+    "last_name": "Савченко",
+    "email": "yuriy1990@example.com",
+    "phone": "+380731000025",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$dvfc6dwxwyWwR15OkpcCKw$/TRPvKCtrq8gAx5irBiru27kEFW/6fByXxU9RxmpfY4",
+    "is_superuser": false
+  },
+  {
+    "id": 26,
+    "first_name": "Олена",
+    "second_name": "Олександрівна",
+    "last_name": "Ковальчук",
+    "email": "olena1992@example.com",
+    "phone": "+380731000026",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$/g+e1E0/rnXtGq5inrcMpQ$0RVKHz74qYc3lbp4R4GxKyZEjncvpgKoCKjWjJ3L/Cc",
+    "is_superuser": false
+  },
+  {
+    "id": 27,
+    "first_name": "Світлана",
+    "second_name": "Іванівна",
+    "last_name": "Шевченко",
+    "email": "svitlana1985@example.com",
+    "phone": "+380731000027",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$X1fLRJqItD/6DwAhLgdvgA$1C0J3p3yP1PRD2A/jraWQanuFiRjcvW1jTepG+m5lIA",
+    "is_superuser": false
+  },
+  {
+    "id": 28,
+    "first_name": "Ірина",
+    "second_name": "Петрівна",
+    "last_name": "Кравченко",
+    "email": "iryna1990@example.com",
+    "phone": "+380731000028",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$nzcbGfhJsAkV9vk51vSPGw$Sq0SIOY3+ZiizFjlT1LBvmN9rBuvnuhVc2WqO8iAnZk",
+    "is_superuser": false
+  },
+  {
+    "id": 29,
+    "first_name": "Тетяна",
+    "second_name": "Сергіївна",
+    "last_name": "Бойко",
+    "email": "tetiana1990@example.com",
+    "phone": "+380731000029",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$+aTKK3Z9IxjYVNlms+wL/g$IttHHryGTvPq+rcTGUsxKBuYSC9atea1bv2vC1AKge4",
+    "is_superuser": false
+  },
+  {
+    "id": 30,
+    "first_name": "Наталія",
+    "second_name": "Михайлівна",
+    "last_name": "Лещенко",
+    "email": "natalia1987@example.com",
+    "phone": "+380731000030",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$FJBWLtxijsN70jXOoVDTMA$/bjPW/9CPbJNzLNy+PMU/czzf+c948FKkNLtLTK9bFk",
+    "is_superuser": false
+  },
+  {
+    "id": 31,
+    "first_name": "Марія",
+    "second_name": "Олександрівна",
+    "last_name": "Мельник",
+    "email": "maria1995@example.com",
+    "phone": "+380731000031",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$WrI/MRtkYLLx8FM26eLSig$U4KGrumtDr/2grGo2sbpSNCn4m8lNAdpXTxkrBfChfk",
+    "is_superuser": false
+  },
+  {
+    "id": 32,
+    "first_name": "Ганна",
+    "second_name": "Юріївна",
+    "last_name": "Сидоренко",
+    "email": "hanna1990@example.com",
+    "phone": "+380731000032",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$znVzX/5RNMZEN6i2WJhX1w$zwslfLXvXMjntdcbfopf3IdoEDKE40hkvMjeg///yuQ",
+    "is_superuser": false
+  },
+  {
+    "id": 33,
+    "first_name": "Людмила",
+    "second_name": "Василівна",
+    "last_name": "Ткаченко",
+    "email": "ludmyla1985@example.com",
+    "phone": "+380731000033",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$e3rUlli7l+/a3bBYCOczWA$8zWDUSDDJP7nKR/uVk2mEwuNhZ2L9mCZeA5sPCUfzMY",
+    "is_superuser": false
+  },
+  {
+    "id": 34,
+    "first_name": "Віра",
+    "second_name": "Данилівна",
+    "last_name": "Руденко",
+    "email": "vira1986@example.com",
+    "phone": "+380731000034",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$fVUO4cReiT6RB73cwPRnZQ$d2VWrWPfVMyN4OdKhPYG0isjuYxfAq1H9k2LMc2VPY4",
+    "is_superuser": false
+  },
+  {
+    "id": 35,
+    "first_name": "Анна",
+    "second_name": "Михайлівна",
+    "last_name": "Зінченко",
+    "email": "anna1994@example.com",
+    "phone": "+380731000035",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$awzCMvwOjvcWqhiPMclMYg$glbflOh0yP3gPStV402VHVbL/+sNF5r9hdiCFy+pUfs",
+    "is_superuser": false
+  },
+  {
+    "id": 36,
+    "first_name": "Олена",
+    "second_name": "Петрівна",
+    "last_name": "Мартиненко",
+    "email": "olena1989@example.com",
+    "phone": "+380731000036",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$c3iPPSU5/rCsPFyF0ByCoQ$r6wq+snp6ajEGpH6ZanzBQLlIY6Cqips/rIo0lwgiaM",
+    "is_superuser": false
+  },
+  {
+    "id": 37,
+    "first_name": "Світлана",
+    "second_name": "Олександрівна",
+    "last_name": "Кравець",
+    "email": "svitlana1990@example.com",
+    "phone": "+380731000037",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$jFl4GSTr+/iQm63Cej/GHA$YflBlo+rUM0/V8Xq8JO+FtFB/UrcuwHw4OkvGLgvNbY",
+    "is_superuser": false
+  },
+  {
+    "id": 38,
+    "first_name": "Ірина",
+    "second_name": "Володимирівна",
+    "last_name": "Гнатюк",
+    "email": "iryna1987@example.com",
+    "phone": "+380731000038",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$zD1Hs+9bnOFzGkKB4VJgkA$YnbCtgrh7xX8ckM001Y6ndqqd84INJ+0RqpTP2tpXlc",
+    "is_superuser": false
+  },
+  {
+    "id": 39,
+    "first_name": "Тетяна",
+    "second_name": "Іванівна",
+    "last_name": "Єрмак",
+    "email": "tetiana1992@example.com",
+    "phone": "+380731000039",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$zcmoaBZFyyZLXglQJBScVQ$WD+2eTKe8e7o28PStQ5v+F53YPxcomrZTSpEfHGkPX4",
+    "is_superuser": false
+  },
+  {
+    "id": 40,
+    "first_name": "Наталія",
+    "second_name": "Павлівна",
+    "last_name": "Бондаренко",
+    "email": "natalia1990@example.com",
+    "phone": "+380731000040",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$ZD47nfzn/rUE0ziIQgYeww$L4zZoOpFnD/YeBOmZ8+z5wRdMug3bf5AwyQNyE7e6Y8",
+    "is_superuser": false
+  },
+  {
+    "id": 41,
+    "first_name": "Марія",
+    "second_name": "Володимирівна",
+    "last_name": "Довженко",
+    "email": "maria1993@example.com",
+    "phone": "+380731000041",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$bNTFCTUrbpB2AVPelkkpig$6hgS2zMM08pMIEyys0u1Mkqbn1ZR3vdYfaMLOv31Tww",
+    "is_superuser": false
+  },
+  {
+    "id": 42,
+    "first_name": "Ганна",
+    "second_name": "Миколаївна",
+    "last_name": "Мороз",
+    "email": "hanna1988@example.com",
+    "phone": "+380731000042",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$QFOem4n6/jDRnDivbP4d/g$vAgyMru4i9EXFNZSfUtialZ7Dbsq/01maL4UGAA01DI",
+    "is_superuser": false
+  },
+  {
+    "id": 43,
+    "first_name": "Людмила",
+    "second_name": "Олександрівна",
+    "last_name": "Гриценко",
+    "email": "ludmyla1991@example.com",
+    "phone": "+380731000043",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$bVDwn4db11uNnUr65WUlyA$5174HAnCUMqzsBjrljl8lDuHGIlGmTK6LIJU34AnbR0",
+    "is_superuser": false
+  },
+  {
+    "id": 44,
+    "first_name": "Віра",
+    "second_name": "Вікторівна",
+    "last_name": "Симоненко",
+    "email": "vira1994@example.com",
+    "phone": "+380731000044",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$aqXTcTlKOXcu817trlotgg$N5qoxtUqiVzIheRqNEj9z49jDIHIsHUFRySaoMFD0wE",
+    "is_superuser": false
+  },
+  {
+    "id": 45,
+    "first_name": "Анна",
+    "second_name": "Степанівна",
+    "last_name": "Назаренко",
+    "email": "anna1987@example.com",
+    "phone": "+380731000045",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$yrJTWmk2KjAHo0gfyqP0fQ$resWp6d2bYvnBNgwd7W1duad/rrKkrDwX1i7NrVyB1w",
+    "is_superuser": false
+  },
+  {
+    "id": 46,
+    "first_name": "Олена",
+    "second_name": "Юріївна",
+    "last_name": "Тимошенко",
+    "email": "olena1990@example.com",
+    "phone": "+380731000046",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$QzHqpzlQ/m6QZfwxJewX/Q$UThRdpSLUIDqiVc4VVkVg+3OtFToPSlPABpUQhmDLuk",
+    "is_superuser": false
+  },
+  {
+    "id": 47,
+    "first_name": "Світлана",
+    "second_name": "Петрівна",
+    "last_name": "Федоренко",
+    "email": "svitlana1989@example.com",
+    "phone": "+380731000047",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$K5Kn4ZspAKNdNaHoWsOywA$Hrhk0GDVNRr7B0EfxpR17scZMVXRZO0nYm4qJBmrMx0",
+    "is_superuser": false
+  },
+  {
+    "id": 48,
+    "first_name": "Ірина",
+    "second_name": "Олександрівна",
+    "last_name": "Литвин",
+    "email": "iryna1985@example.com",
+    "phone": "+380731000048",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$5t7mQj7vXLShuJCKSXHHsw$fstYU1pu7E6Opm2VFW7eoO+KK88FgavbGYhhewwCKw8",
+    "is_superuser": false
+  },
+  {
+    "id": 49,
+    "first_name": "Тетяна",
+    "second_name": "Іванівна",
+    "last_name": "Дорошенко",
+    "email": "tetiana1993@example.com",
+    "phone": "+380731000049",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$/8HvqI9BerGZw1WEgHT2JQ$ttm0fHMMZMfVVsyV7+1lYC5jvNs6BrOZBgTGnw+jI9o",
+    "is_superuser": false
+  },
+  {
+    "id": 50,
+    "first_name": "Наталія",
+    "second_name": "Василівна",
+    "last_name": "Савченко",
+    "email": "natalia1985@example.com",
+    "phone": "+380731000050",
+    "hashed_password": "$argon2id$v=19$m=102400,t=3,p=4$rUvjvYXC2Dz+i7KjEqoI7g$dT9Ebz1/tl9xap2mmrcQzNXM6HQA1Shu4HuUsg/RchE",
+    "is_superuser": false
+  }
+]

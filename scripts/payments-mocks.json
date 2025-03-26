@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "company_id": 1,
+    "type": "card",
+    "active": true
+  },
+  {
+    "id": 2,
+    "company_id": 1,
+    "type": "bank_account",
+    "active": true
+  },
+  {
+    "id": 3,
+    "company_id": 1,
+    "type": "cash_on_delivery",
+    "active": true
+  },
+  {
+    "id": 4,
+    "company_id": 2,
+    "type": "card",
+    "active": true
+  },
+  {
+    "id": 5,
+    "company_id": 2,
+    "type": "bank_account",
+    "active": true
+  },
+  {
+    "id": 6,
+    "company_id": 2,
+    "type": "cash_on_delivery",
+    "active": true
+  },
+  {
+    "id": 7,
+    "company_id": 3,
+    "type": "card",
+    "active": true
+  },
+  {
+    "id": 8,
+    "company_id": 3,
+    "type": "bank_account",
+    "active": true
+  },
+  {
+    "id": 9,
+    "company_id": 3,
+    "type": "cash_on_delivery",
+    "active": true
+  },
+  {
+    "id": 10,
+    "company_id": 4,
+    "type": "card",
+    "active": true
+  },
+  {
+    "id": 11,
+    "company_id": 4,
+    "type": "bank_account",
+    "active": true
+  },
+  {
+    "id": 12,
+    "company_id": 4,
+    "type": "cash_on_delivery",
+    "active": true
+  },
+  {
+    "id": 13,
+    "company_id": 5,
+    "type": "card",
+    "active": true
+  },
+  {
+    "id": 14,
+    "company_id": 5,
+    "type": "bank_account",
+    "active": true
+  },
+  {
+    "id": 15,
+    "company_id": 5,
+    "type": "cash_on_delivery",
+    "active": true
+  },
+  {
+    "id": 16,
+    "company_id": 6,
+    "type": "card",
+    "active": true
+  },
+  {
+    "id": 17,
+    "company_id": 6,
+    "type": "bank_account",
+    "active": true
+  },
+  {
+    "id": 18,
+    "company_id": 6,
+    "type": "cash_on_delivery",
+    "active": true
+  },
+  {
+    "id": 19,
+    "company_id": 7,
+    "type": "card",
+    "active": true
+  },
+  {
+    "id": 20,
+    "company_id": 7,
+    "type": "bank_account",
+    "active": true
+  },
+  {
+    "id": 21,
+    "company_id": 7,
+    "type": "cash_on_delivery",
+    "active": true
+  },
+  {
+    "id": 22,
+    "company_id": 8,
+    "type": "card",
+    "active": true
+  },
+  {
+    "id": 23,
+    "company_id": 8,
+    "type": "bank_account",
+    "active": true
+  },
+  {
+    "id": 24,
+    "company_id": 8,
+    "type": "cash_on_delivery",
+    "active": true
+  },
+  {
+    "id": 25,
+    "company_id": 9,
+    "type": "card",
+    "active": true
+  },
+  {
+    "id": 26,
+    "company_id": 9,
+    "type": "bank_account",
+    "active": true
+  },
+  {
+    "id": 27,
+    "company_id": 9,
+    "type": "cash_on_delivery",
+    "active": true
+  },
+  {
+    "id": 28,
+    "company_id": 10,
+    "type": "card",
+    "active": true
+  },
+  {
+    "id": 29,
+    "company_id": 10,
+    "type": "bank_account",
+    "active": true
+  },
+  {
+    "id": 30,
+    "company_id": 10,
+    "type": "cash_on_delivery",
+    "active": true
+  }
+]

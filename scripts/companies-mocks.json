@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "ТОВ Електроніка",
+    "owner_id": 1,
+    "email": "elektronika@example.com",
+    "phone": "+380731100001"
+  },
+  {
+    "id": 2,
+    "name": "АТ Супер Техно",
+    "owner_id": 2,
+    "email": "supertechno@example.com",
+    "phone": "+380731100002"
+  },
+  {
+    "id": 3,
+    "name": "Магазин Стиль",
+    "owner_id": 3,
+    "email": "magazinstyl@example.com",
+    "phone": "+380731100003"
+  },
+  {
+    "id": 4,
+    "name": "Фірма Гаджет",
+    "owner_id": 4,
+    "email": "gadgetfirm@example.com",
+    "phone": "+380731100004"
+  },
+  {
+    "id": 5,
+    "name": "Інновації",
+    "owner_id": 5,
+    "email": "innovations@example.com",
+    "phone": "+380731100005"
+  },
+  {
+    "id": 6,
+    "name": "Смарт Маркет",
+    "owner_id": 6,
+    "email": "smartmarket@example.com",
+    "phone": "+380731100006"
+  },
+  {
+    "id": 7,
+    "name": "Бізнес Платформа",
+    "owner_id": 7,
+    "email": "businessplatform@example.com",
+    "phone": "+380731100007"
+  },
+  {
+    "id": 8,
+    "name": "Діджитал Хаб",
+    "owner_id": 8,
+    "email": "digitalhub@example.com",
+    "phone": "+380731100008"
+  },
+  {
+    "id": 9,
+    "name": "Маркет Експерт",
+    "owner_id": 9,
+    "email": "marketexpert@example.com",
+    "phone": "+380731100009"
+  },
+  {
+    "id": 10,
+    "name": "Торгова Платформа",
+    "owner_id": 10,
+    "email": "torgovaplatform@example.com",
+    "phone": "+380731100010"
+  }
+]

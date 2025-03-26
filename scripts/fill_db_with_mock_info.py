@@ -24,6 +24,10 @@ engine = create_engine(get_db_url(), echo=True)
 metadata = MetaData()
 
 category_table = Table("category", metadata, autoload_with=engine)
+user_table = Table("user", metadata, autoload_with=engine)
+company_table = Table("company", metadata, autoload_with=engine)
+delivery_option_table = Table("delivery_option", metadata, autoload_with=engine)
+payment_option_table = Table("payment_option", metadata, autoload_with=engine)
 
 
 def insert_categories(connection) -> None:
@@ -34,6 +38,42 @@ def insert_categories(connection) -> None:
     connection.execute(category_table.insert(), categories)
 
 
+def insert_users(connection) -> None:
+    with open(Path(__file__).parent / "users-mocks.json") as f:
+        users = json.load(f)
+
+    connection.execute(sa_text('TRUNCATE "user" CASCADE'))
+    connection.execute(user_table.insert(), users)
+
+
+def insert_companies(connection) -> None:
+    with open(Path(__file__).parent / "companies-mocks.json") as f:
+        companies = json.load(f)
+
+    connection.execute(sa_text("TRUNCATE company CASCADE"))
+    connection.execute(company_table.insert(), companies)
+
+
+def insert_deliveries(connection) -> None:
+    with open(Path(__file__).parent / "deliveries-mocks.json") as f:
+        deliveries = json.load(f)
+
+    connection.execute(sa_text("TRUNCATE delivery_option CASCADE"))
+    connection.execute(delivery_option_table.insert(), deliveries)
+
+
+def insert_payments(connection) -> None:
+    with open(Path(__file__).parent / "payments-mocks.json") as f:
+        payments = json.load(f)
+
+    connection.execute(sa_text("TRUNCATE payment_option CASCADE"))
+    connection.execute(payment_option_table.insert(), payments)
+
+
 if __name__ == "__main__":
     with engine.begin() as conn:
         insert_categories(conn)
+        insert_users(conn)
+        insert_companies(conn)
+        insert_deliveries(conn)
+        insert_payments(conn)
