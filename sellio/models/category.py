@@ -21,6 +21,10 @@ class Category(Base):
     name: Mapped[str] = mapped_column(String(length=120))
     description: Mapped[str] = mapped_column(Text)
     parent_category_id: Mapped[int] = mapped_column(
-        Integer, ForeignKey("category.id"), index=True, unique=False, nullable=True
+        Integer,
+        ForeignKey("category.id"),
+        index=True,
+        unique=False,
+        nullable=True,
     )
     is_adult: Mapped[bool] = mapped_column(Boolean, default=False)

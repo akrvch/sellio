@@ -1,8 +1,10 @@
 from enum import Enum
 from typing import NamedTuple
 
-from sqlalchemy import ForeignKey, UniqueConstraint, Boolean
+from sqlalchemy import Boolean
+from sqlalchemy import ForeignKey
 from sqlalchemy import Integer
+from sqlalchemy import UniqueConstraint
 from sqlalchemy.orm import Mapped
 from sqlalchemy.orm import mapped_column
 
@@ -16,18 +18,11 @@ class PaymentOptionEnumValue(NamedTuple):
 
 
 class PaymentOptionType(Enum):
-    card = PaymentOptionEnumValue(
-        name="Оплата картою",
-        description=""
-    )
+    card = PaymentOptionEnumValue(name="Оплата картою", description="")
     bank_account = PaymentOptionEnumValue(
-        name="Оплата за реквізитами",
-        description=""
+        name="Оплата за реквізитами", description=""
     )
-    cash_on_delivery = PaymentOptionEnumValue(
-        name="Післяплата",
-        description=""
-    )
+    cash_on_delivery = PaymentOptionEnumValue(name="Післяплата", description="")
 
 
 class PaymentOption(Base):
@@ -42,9 +37,13 @@ class PaymentOption(Base):
     company_id: Mapped[int] = mapped_column(
         Integer, ForeignKey("company.id"), index=True, unique=False
     )
-    type: Mapped[PaymentOptionType] = mapped_column(SqlAlEnumDecorator(PaymentOptionType))
+    type: Mapped[PaymentOptionType] = mapped_column(
+        SqlAlEnumDecorator(PaymentOptionType)
+    )
     active: Mapped[bool] = mapped_column(Boolean, default=True)
 
     __table_args__ = (
-        UniqueConstraint('company_id', 'type', name="ix_company_id_payment_option_type"),
+        UniqueConstraint(
+            "company_id", "type", name="ix_company_id_payment_option_type"
+        ),
     )

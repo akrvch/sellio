@@ -1,8 +1,12 @@
 import json
 from pathlib import Path
-from sqlalchemy.sql import text as sa_text
-from sqlalchemy import create_engine, MetaData, Table
+
 import toml
+from sqlalchemy import MetaData
+from sqlalchemy import Table
+from sqlalchemy import create_engine
+from sqlalchemy.sql import text as sa_text
+
 
 def get_db_url() -> str:
     config = toml.load(Path(__file__).parent.parent / "config/dev.toml")
@@ -14,6 +18,7 @@ def get_db_url() -> str:
     db = db_config["db"]
     driver = "postgresql"
     return f"{driver}://{user}:{password}@{host}:{port}/{db}"
+
 
 engine = create_engine(get_db_url(), echo=True)
 metadata = MetaData()

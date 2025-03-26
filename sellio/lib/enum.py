@@ -1,8 +1,9 @@
-from enum import Enum, EnumType
-
+from enum import Enum
+from enum import EnumType
 from typing import Any
 
-from sqlalchemy import String, Dialect
+from sqlalchemy import Dialect
+from sqlalchemy import String
 from sqlalchemy.types import TypeDecorator
 
 
