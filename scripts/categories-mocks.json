@@ -299,5 +299,334 @@
     "description": "Шарфи та хустки",
     "parent_category_id": 38,
     "is_adult": false
+  },
+    {
+    "id": 44,
+    "name": "Техніка і Електроніка",
+    "description": "Головна категорія техніки та електроніки",
+    "parent_category_id": 1,
+    "is_adult": false
+  },
+  {
+    "id": 45,
+    "name": "Комп'ютери",
+    "description": "Категорія комп'ютерної техніки",
+    "parent_category_id": 44,
+    "is_adult": false
+  },
+  {
+    "id": 46,
+    "name": "Настільні Комп'ютери",
+    "description": "Підкатегорія настільних комп'ютерів",
+    "parent_category_id": 45,
+    "is_adult": false
+  },
+  {
+    "id": 49,
+    "name": "Ігрові Настільні",
+    "description": "Ігрові настільні комп'ютери",
+    "parent_category_id": 46,
+    "is_adult": false
+  },
+  {
+    "id": 50,
+    "name": "Офісні Настільні",
+    "description": "Офісні настільні комп'ютери",
+    "parent_category_id": 46,
+    "is_adult": false
+  },
+  {
+    "id": 51,
+    "name": "Бюджетні Настільні",
+    "description": "Бюджетні настільні комп'ютери",
+    "parent_category_id": 46,
+    "is_adult": false
+  },
+  {
+    "id": 47,
+    "name": "Ноутбуки",
+    "description": "Категорія ноутбуків",
+    "parent_category_id": 45,
+    "is_adult": false
+  },
+  {
+    "id": 52,
+    "name": "Ігрові Ноутбуки",
+    "description": "Ігрові ноутбуки",
+    "parent_category_id": 47,
+    "is_adult": false
+  },
+  {
+    "id": 53,
+    "name": "Бізнес Ноутбуки",
+    "description": "Ноутбуки для бізнесу",
+    "parent_category_id": 47,
+    "is_adult": false
+  },
+  {
+    "id": 54,
+    "name": "Універсальні Ноутбуки",
+    "description": "Універсальні ноутбуки",
+    "parent_category_id": 47,
+    "is_adult": false
+  },
+  {
+    "id": 55,
+    "name": "Тонкі Ноутбуки",
+    "description": "Тонкі ноутбуки",
+    "parent_category_id": 47,
+    "is_adult": false
+  },
+  {
+    "id": 48,
+    "name": "Планшети",
+    "description": "Категорія планшетів",
+    "parent_category_id": 45,
+    "is_adult": false
+  },
+  {
+    "id": 56,
+    "name": "Android Планшети",
+    "description": "Планшети на базі Android",
+    "parent_category_id": 48,
+    "is_adult": false
+  },
+  {
+    "id": 57,
+    "name": "iOS Планшети",
+    "description": "Планшети на базі iOS",
+    "parent_category_id": 48,
+    "is_adult": false
+  },
+  {
+    "id": 58,
+    "name": "Гібридні Планшети",
+    "description": "Гібридні планшети",
+    "parent_category_id": 48,
+    "is_adult": false
+  },
+  {
+    "id": 59,
+    "name": "Мобільні Пристрої",
+    "description": "Категорія мобільних пристроїв",
+    "parent_category_id": 44,
+    "is_adult": false
+  },
+  {
+    "id": 60,
+    "name": "Смартфони",
+    "description": "Категорія смартфонів",
+    "parent_category_id": 59,
+    "is_adult": false
+  },
+  {
+    "id": 61,
+    "name": "Android Смартфони",
+    "description": "Смартфони на базі Android",
+    "parent_category_id": 60,
+    "is_adult": false
+  },
+  {
+    "id": 62,
+    "name": "iOS Смартфони",
+    "description": "Смартфони на базі iOS",
+    "parent_category_id": 60,
+    "is_adult": false
+  },
+  {
+    "id": 63,
+    "name": "Бюджетні Смартфони",
+    "description": "Бюджетні смартфони",
+    "parent_category_id": 60,
+    "is_adult": false
+  },
+  {
+    "id": 64,
+    "name": "Розумні Годинники",
+    "description": "Категорія розумних годинників",
+    "parent_category_id": 59,
+    "is_adult": false
+  },
+  {
+    "id": 65,
+    "name": "Спортивні Годинники",
+    "description": "Спортивні розумні годинники",
+    "parent_category_id": 64,
+    "is_adult": false
+  },
+  {
+    "id": 66,
+    "name": "Класичні Годинники",
+    "description": "Класичні розумні годинники",
+    "parent_category_id": 64,
+    "is_adult": false
+  },
+  {
+    "id": 67,
+    "name": "Гібридні Годинники",
+    "description": "Гібридні розумні годинники",
+    "parent_category_id": 64,
+    "is_adult": false
+  },
+  {
+    "id": 68,
+    "name": "Інші Пристрої",
+    "description": "Інші мобільні пристрої",
+    "parent_category_id": 59,
+    "is_adult": false
+  },
+  {
+    "id": 69,
+    "name": "GPS Навігатори",
+    "description": "GPS навігатори",
+    "parent_category_id": 68,
+    "is_adult": false
+  },
+  {
+    "id": 70,
+    "name": "Портативні Консолі",
+    "description": "Портативні консолі",
+    "parent_category_id": 68,
+    "is_adult": false
+  },
+  {
+    "id": 71,
+    "name": "Електронні Книги",
+    "description": "Електронні книги",
+    "parent_category_id": 68,
+    "is_adult": false
+  },
+  {
+    "id": 72,
+    "name": "Побутова Техніка",
+    "description": "Категорія побутової техніки",
+    "parent_category_id": 44,
+    "is_adult": false
+  },
+  {
+    "id": 73,
+    "name": "Кухонна Техніка",
+    "description": "Кухонна техніка для дому",
+    "parent_category_id": 72,
+    "is_adult": false
+  },
+  {
+    "id": 74,
+    "name": "Холодильники",
+    "description": "Холодильники",
+    "parent_category_id": 73,
+    "is_adult": false
+  },
+  {
+    "id": 75,
+    "name": "Плити",
+    "description": "Плити",
+    "parent_category_id": 73,
+    "is_adult": false
+  },
+  {
+    "id": 76,
+    "name": "Посудомийки",
+    "description": "Посудомийки",
+    "parent_category_id": 73,
+    "is_adult": false
+  },
+  {
+    "id": 77,
+    "name": "Кліматична Техніка",
+    "description": "Кліматична техніка для дому",
+    "parent_category_id": 72,
+    "is_adult": false
+  },
+  {
+    "id": 78,
+    "name": "Кондиціонери",
+    "description": "Кондиціонери",
+    "parent_category_id": 77,
+    "is_adult": false
+  },
+  {
+    "id": 79,
+    "name": "Обігрівачі",
+    "description": "Обігрівачі",
+    "parent_category_id": 77,
+    "is_adult": false
+  },
+  {
+    "id": 80,
+    "name": "Вентилятори",
+    "description": "Вентилятори",
+    "parent_category_id": 77,
+    "is_adult": false
+  },
+  {
+    "id": 81,
+    "name": "Пральна Техніка",
+    "description": "Категорія пральної техніки",
+    "parent_category_id": 72,
+    "is_adult": false
+  },
+  {
+    "id": 82,
+    "name": "Пральні Машини",
+    "description": "Пральні машини",
+    "parent_category_id": 81,
+    "is_adult": false
+  },
+  {
+    "id": 83,
+    "name": "Сушильні Машини",
+    "description": "Сушильні машини",
+    "parent_category_id": 81,
+    "is_adult": false
+  },
+  {
+    "id": 84,
+    "name": "Прально-Сушильні Машини",
+    "description": "Прально-сушильні машини",
+    "parent_category_id": 81,
+    "is_adult": false
+  },
+  {
+    "id": 85,
+    "name": "Аксесуари",
+    "description": "Аксесуари для техніки та електроніки",
+    "parent_category_id": 44,
+    "is_adult": false
+  },
+  {
+    "id": 86,
+    "name": "Чохли",
+    "description": "Чохли для пристроїв",
+    "parent_category_id": 85,
+    "is_adult": false
+  },
+  {
+    "id": 87,
+    "name": "Кабелі",
+    "description": "Кабелі для зарядки та передачі даних",
+    "parent_category_id": 85,
+    "is_adult": false
+  },
+  {
+    "id": 88,
+    "name": "Зарядні Пристрої",
+    "description": "Зарядні пристрої",
+    "parent_category_id": 85,
+    "is_adult": false
+  },
+  {
+    "id": 89,
+    "name": "Адаптери",
+    "description": "Адаптери для підключення пристроїв",
+    "parent_category_id": 85,
+    "is_adult": false
+  },
+  {
+    "id": 90,
+    "name": "Навушники",
+    "description": "Навушники",
+    "parent_category_id": 85,
+    "is_adult": false
   }
 ]

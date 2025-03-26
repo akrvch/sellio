@@ -13,8 +13,6 @@ def get_db_url() -> str:
     port = db_config["port"]
     db = db_config["db"]
     driver = "postgresql"
-    print("FUCK")
-    print(f"{driver}://{user}:{password}@{host}:{port}/{db}")
     return f"{driver}://{user}:{password}@{host}:{port}/{db}"
 
 engine = create_engine(get_db_url(), echo=True)
