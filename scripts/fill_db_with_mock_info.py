@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-
+from sqlalchemy.sql import text as sa_text
 from sqlalchemy import create_engine, MetaData, Table
 import toml
 
@@ -25,6 +25,7 @@ def insert_categories(connection) -> None:
     with open(Path(__file__).parent / "categories-mocks.json") as f:
         categories = json.load(f)
 
+    connection.execute(sa_text("TRUNCATE category CASCADE"))
     connection.execute(category_table.insert(), categories)
 
 

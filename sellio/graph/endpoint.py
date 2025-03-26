@@ -1,5 +1,5 @@
 import logging
-import os.path
+import os
 from asyncio import TaskGroup
 from http import HTTPStatus
 from typing import Any
