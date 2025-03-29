@@ -2,34 +2,30 @@ from collections.abc import AsyncGenerator
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
-from typing_extensions import TypedDict
 
 from sellio.api import router as api_router
 from sellio.graph.endpoint import router as graph_router
-from sellio.services.db import sessionmanager
-from sellio.settings import Config
-
-
-class AppState(TypedDict):
-    config: Config
+from sellio.services.db import init_db
+from sellio.services.db import main_db
+from sellio.services.hash import init_hasher
+from sellio.settings import config
+from sellio.settings import init_config
 
 
 @asynccontextmanager
-async def lifespan(app: FastAPI) -> AsyncGenerator[AppState, None]:
-    state = AppState(
-        config=app.state.config,
-    )
-    yield state
-    if sessionmanager._engine is not None:
-        await sessionmanager.close()
+async def lifespan(_: FastAPI) -> AsyncGenerator[None, None]:
+    init_config()
+    init_db(config)
+    init_hasher()
+    yield
+    if main_db._engine is not None:
+        await main_db.close()
 
 
 def make_app() -> FastAPI:
-    config = Config.load()
     app = FastAPI(
         lifespan=lifespan,
     )
-    app.state.config = config
     app.include_router(graph_router)
     app.include_router(api_router)
     return app

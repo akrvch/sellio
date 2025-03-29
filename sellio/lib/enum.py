@@ -9,6 +9,7 @@ from sqlalchemy.types import TypeDecorator
 
 class SqlAlEnumDecorator(TypeDecorator):
     impl = String
+    cache_ok = True
 
     def __init__(self, enumcls: EnumType, *args: Any, **kwargs: Any):
         self.enumcls = enumcls

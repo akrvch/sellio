@@ -2,43 +2,25 @@ import inspect
 import typing as t
 
 from hiku.executors.asyncio import AsyncIOExecutor
-from hiku.graph import Field
+from hiku.extensions.context import CustomContext
 from hiku.graph import Graph
-from hiku.graph import Link
-from hiku.graph import Node
 from hiku.graph import Root
 from hiku.schema import Schema
-from hiku.types import String
-from hiku.types import TypeRef
 
-
-def mapper(fields: list[Field], contexts: list[t.Any]):
-    def _get_field(field_name: str) -> t.Any:
-        match field_name:
-            case "hello":
-                return "world"
-        raise AttributeError(f"Field '{field_name}' is not defined")
-
-    return [[_get_field(field.name) for field in fields] for _ in contexts]
-
-
-def resolver(*args):
-    return None
-
+from sellio.graph.company.nodes import CompanyNode
+from sellio.graph.context import get_graph_context
+from sellio.graph.delivery_option.nodes import DeliveryOptionNode
+from sellio.graph.payment_option.nodes import PaymentOptionNode
+from sellio.graph.product.links import ProductListLink
+from sellio.graph.product.nodes import ProductNode
 
 GRAPH = Graph(
     items=[
-        Node("HelloWorld", [Field("hello", String, mapper)]),
-        Root(
-            [
-                Link(
-                    "helloWorld",
-                    TypeRef["HelloWorld"],
-                    resolver,
-                    requires=None,
-                )
-            ]
-        ),
+        CompanyNode,
+        DeliveryOptionNode,
+        PaymentOptionNode,
+        ProductNode,
+        Root([ProductListLink]),
     ]
 )
 
@@ -57,4 +39,8 @@ class AnyIOExecutor(AsyncIOExecutor):
         return super().submit(self._wrapper, fn, *args, **kwargs)
 
 
-SCHEMA = Schema(AsyncIOExecutor(), graph=GRAPH)
+SCHEMA = Schema(
+    AsyncIOExecutor(),
+    graph=GRAPH,
+    extensions=[CustomContext(lambda ec: get_graph_context(ec.context))],
+)

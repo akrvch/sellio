@@ -1,19 +1,24 @@
+import logging
 import os
 from pathlib import Path
+from typing import cast
 
 from pydantic import BaseModel
 from pydantic import SecretStr
 from pydantic_settings import BaseSettings
 from pydantic_settings import EnvSettingsSource
 from pydantic_settings import PydanticBaseSettingsSource
-from pydantic_settings import SettingsConfigDict
 from pydantic_settings import TomlConfigSettingsSource
 
+from sellio import GlobalProxy
+from sellio import global_storage
 from sellio.utils import get_sql_alchemy_db_url
 
 CONFIG_PATH = Path(__file__).parent.parent / "config/{}.toml".format(
     os.environ["SELLIO__ENV"]
 )
+
+log = logging.getLogger(__name__)
 
 
 class DbConfig(BaseModel):
@@ -38,8 +43,6 @@ class Config(BaseSettings):
     env: str
     main_db: DbConfig
 
-    model_config = SettingsConfigDict(frozen=True)
-
     @classmethod
     def load(cls) -> "Config":
         return cls()
@@ -61,3 +64,12 @@ class Config(BaseSettings):
                 toml_file=CONFIG_PATH,
             ),
         )
+
+
+_KEY = "fastapi.config"
+config: Config = cast(Config, GlobalProxy(_KEY))
+
+
+def init_config():
+    global_storage.set(_KEY, Config.load())
+    log.info("Config successfully initialized")

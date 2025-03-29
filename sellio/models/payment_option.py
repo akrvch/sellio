@@ -13,16 +13,18 @@ from sellio.models import Base
 
 
 class PaymentOptionEnumValue(NamedTuple):
-    name: str
+    title: str
     description: str
 
 
 class PaymentOptionType(Enum):
-    card = PaymentOptionEnumValue(name="Оплата картою", description="")
+    card = PaymentOptionEnumValue(title="Оплата картою", description="")
     bank_account = PaymentOptionEnumValue(
-        name="Оплата за реквізитами", description=""
+        title="Оплата за реквізитами", description=""
     )
-    cash_on_delivery = PaymentOptionEnumValue(name="Післяплата", description="")
+    cash_on_delivery = PaymentOptionEnumValue(
+        title="Післяплата", description=""
+    )
 
 
 class PaymentOption(Base):

@@ -13,15 +13,15 @@ from sellio.models import Base
 
 
 class DeliveryOptionEnumValue(NamedTuple):
-    name: str
+    title: str
     description: str
 
 
 class DeliveryOptionType(Enum):
-    nova_poshta = DeliveryOptionEnumValue(name="Нова Пошта", description="")
-    ukrposhta = DeliveryOptionEnumValue(name="УкрПошта", description="")
-    meest = DeliveryOptionEnumValue(name="Meest", description="")
-    pickup = DeliveryOptionEnumValue(name="Самовивіз", description="")
+    nova_poshta = DeliveryOptionEnumValue(title="Нова Пошта", description="")
+    ukrposhta = DeliveryOptionEnumValue(title="УкрПошта", description="")
+    meest = DeliveryOptionEnumValue(title="Meest", description="")
+    pickup = DeliveryOptionEnumValue(title="Самовивіз", description="")
 
 
 class DeliveryOption(Base):

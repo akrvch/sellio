@@ -4,7 +4,7 @@ from sqlalchemy.orm import Mapped
 from sqlalchemy.orm import mapped_column
 
 from sellio.models import Base
-from sellio.services.hash import PasswordHasher
+from sellio.services.hash import password_hasher
 
 
 class User(Base):
@@ -27,7 +27,7 @@ class User(Base):
 
     @staticmethod
     def generate_password_hash(password: str) -> str:
-        return PasswordHasher.hash(password)
+        return password_hasher.hash(password)
 
     def is_password_correct(self, password: str) -> bool:
-        return PasswordHasher.verify(password, self.hashed_password)
+        return password_hasher.verify(password, self.hashed_password)

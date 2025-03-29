@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "name": "Футболка Slim Fit Чорна",
+    "description": "Чоловіча футболка з високоякісного матеріалу.",
+    "price": 199.99,
+    "company_id": 1,
+    "category_id": 8,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Футболка Classic Біла",
+    "description": "Стильна класична футболка для щоденного носіння.",
+    "price": 179.50,
+    "company_id": 2,
+    "category_id": 8,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 3,
+    "name": "Футболка Sport Blue",
+    "description": "Футболка для активного відпочинку та спорту.",
+    "price": 189.00,
+    "company_id": 3,
+    "category_id": 8,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 4,
+    "name": "Футболка V-Neck Grey",
+    "description": "Сучасна футболка з V-подібним вирізом.",
+    "price": 209.99,
+    "company_id": 4,
+    "category_id": 8,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 5,
+    "name": "Футболка Breathable Red",
+    "description": "Легка футболка з дихаючого матеріалу.",
+    "price": 195.00,
+    "company_id": 5,
+    "category_id": 8,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 6,
+    "name": "Футболка Eco Cotton",
+    "description": "Футболка з органічної бавовни для свідомих споживачів.",
+    "price": 169.99,
+    "company_id": 6,
+    "category_id": 8,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 7,
+    "name": "Футболка Modern Navy",
+    "description": "Сучасна футболка темно-синього кольору.",
+    "price": 205.50,
+    "company_id": 7,
+    "category_id": 8,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 8,
+    "name": "Футболка Athletic Green",
+    "description": "Ідеальна футболка для спортивних тренувань.",
+    "price": 215.00,
+    "company_id": 8,
+    "category_id": 8,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 9,
+    "name": "Футболка Performance Black",
+    "description": "Футболка для високопродуктивних тренувань.",
+    "price": 229.99,
+    "company_id": 9,
+    "category_id": 8,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 10,
+    "name": "Футболка Casual White",
+    "description": "Класична біла футболка для повсякденного стилю.",
+    "price": 179.99,
+    "company_id": 10,
+    "category_id": 8,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 11,
+    "name": "Штани Slim Fit Сині",
+    "description": "Комфортні штани для сучасного чоловіка.",
+    "price": 349.99,
+    "company_id": 1,
+    "category_id": 9,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 12,
+    "name": "Штани Regular Fit Чорні",
+    "description": "Класичні штани з чудовою посадкою.",
+    "price": 359.50,
+    "company_id": 2,
+    "category_id": 9,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 13,
+    "name": "Штани Casual Beige",
+    "description": "Елегантні штани для повсякденного використання.",
+    "price": 329.99,
+    "company_id": 3,
+    "category_id": 9,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 14,
+    "name": "Штани Jogger Grey",
+    "description": "Стильні штани-джогери для активного відпочинку.",
+    "price": 339.99,
+    "company_id": 4,
+    "category_id": 9,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 15,
+    "name": "Штани Cargo Brown",
+    "description": "Практичні штани з кишенями для зручності.",
+    "price": 369.99,
+    "company_id": 5,
+    "category_id": 9,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 16,
+    "name": "Штани Formal Navy",
+    "description": "Стильні штани для офісного стилю.",
+    "price": 389.99,
+    "company_id": 6,
+    "category_id": 9,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 17,
+    "name": "Штани Stretch Black",
+    "description": "Еластичні штани для максимального комфорту.",
+    "price": 359.99,
+    "company_id": 7,
+    "category_id": 9,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 18,
+    "name": "Штани Urban Khaki",
+    "description": "Модні штани для міського стилю.",
+    "price": 349.50,
+    "company_id": 8,
+    "category_id": 9,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 19,
+    "name": "Штани Sporty Blue",
+    "description": "Спортивні штани для активного способу життя.",
+    "price": 369.00,
+    "company_id": 9,
+    "category_id": 9,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 20,
+    "name": "Штани Comfort Fit Olive",
+    "description": "Зручні штани для повсякденного носіння.",
+    "price": 339.00,
+    "company_id": 10,
+    "category_id": 9,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 21,
+    "name": "Костюм Active Black",
+    "description": "Спортивний костюм для тренувань та активного відпочинку.",
+    "price": 499.99,
+    "company_id": 1,
+    "category_id": 10,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 22,
+    "name": "Костюм Sport Grey",
+    "description": "Комфортний костюм для занять спортом.",
+    "price": 529.99,
+    "company_id": 2,
+    "category_id": 10,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 23,
+    "name": "Костюм Performance Blue",
+    "description": "Костюм для високих спортивних досягнень.",
+    "price": 549.50,
+    "company_id": 3,
+    "category_id": 10,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 24,
+    "name": "Костюм Fitness Red",
+    "description": "Енергійний костюм для фітнесу та тренувань.",
+    "price": 519.99,
+    "company_id": 4,
+    "category_id": 10,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 25,
+    "name": "Костюм Dynamic Navy",
+    "description": "Костюм для активного способу життя.",
+    "price": 539.99,
+    "company_id": 5,
+    "category_id": 10,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 26,
+    "name": "Костюм Running Black",
+    "description": "Легкий костюм для бігових тренувань.",
+    "price": 509.99,
+    "company_id": 6,
+    "category_id": 10,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 27,
+    "name": "Костюм Training Grey",
+    "description": "Костюм для щоденних спортивних тренувань.",
+    "price": 529.50,
+    "company_id": 7,
+    "category_id": 10,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 28,
+    "name": "Костюм Aerobic Blue",
+    "description": "Яскравий костюм для аеробіки та фітнесу.",
+    "price": 549.99,
+    "company_id": 8,
+    "category_id": 10,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 29,
+    "name": "Костюм Track Suit Red",
+    "description": "Костюм для занять легкою атлетикою.",
+    "price": 569.99,
+    "company_id": 9,
+    "category_id": 10,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 30,
+    "name": "Костюм Ultra Fit Black",
+    "description": "Преміум-клас костюм для спортсменів.",
+    "price": 599.99,
+    "company_id": 10,
+    "category_id": 10,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  }
+]

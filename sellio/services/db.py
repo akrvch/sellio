@@ -1,12 +1,18 @@
+import logging
 from contextlib import asynccontextmanager
 from typing import AsyncIterator
+from typing import cast
 
 from sqlalchemy.ext.asyncio import AsyncConnection
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.ext.asyncio import async_sessionmaker
 from sqlalchemy.ext.asyncio import create_async_engine
 
+from sellio import GlobalProxy
+from sellio import global_storage
 from sellio.settings import Config
+
+log = logging.getLogger(__name__)
 
 
 class DatabaseSessionManager:
@@ -51,4 +57,12 @@ class DatabaseSessionManager:
             await session.close()
 
 
-sessionmanager = DatabaseSessionManager(Config.load().main_db.url)
+_KEY = "main_db.session_manager"
+main_db: DatabaseSessionManager = cast(
+    DatabaseSessionManager, GlobalProxy(_KEY)
+)
+
+
+def init_db(config: Config):
+    global_storage.set(_KEY, DatabaseSessionManager(host=config.main_db.url))
+    log.info("Main DB engine successfully configured")

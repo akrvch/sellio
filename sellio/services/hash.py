@@ -1,36 +1,66 @@
+import logging
 from abc import ABC
 from abc import abstractmethod
+from typing import cast
 
 from argon2 import PasswordHasher as Argon2PasswordHasher
 from argon2.exceptions import VerifyMismatchError
 
-_argon2_hasher = Argon2PasswordHasher(
-    time_cost=3,
-    memory_cost=102400,
-)
+from sellio import GlobalProxy
+from sellio import global_storage
+
+log = logging.getLogger(__name__)
 
 
 class BaseHasher(ABC):
-    @staticmethod
     @abstractmethod
-    def hash(string: str) -> str:
+    def hash(self, string: str) -> str:
         pass
 
-    @staticmethod
     @abstractmethod
-    def verify(string: str, hashed_string: str) -> bool:
+    def verify(self, string: str, hashed_string: str) -> bool:
         pass
 
 
-class PasswordHasher(BaseHasher):
-    @staticmethod
-    def hash(password: str) -> str:
-        return _argon2_hasher.hash(password)
+class BaseHasherInterface(BaseHasher, ABC): ...
 
-    @staticmethod
-    def verify(password: str, password_hash: str) -> bool:
+
+class Argon2Hasher(BaseHasherInterface):
+    def __init__(self):
+        self._hasher = Argon2PasswordHasher(
+            time_cost=3,
+            memory_cost=102400,
+        )
+
+    def hash(self, password: str) -> str:
+        return self._hasher.hash(password)
+
+    def verify(self, password: str, password_hash: str) -> bool:
         try:
-            _argon2_hasher.verify(password_hash, password)
+            self._hasher.verify(password_hash, password)
         except VerifyMismatchError:
             return False
         return True
+
+
+class PasswordHasher(BaseHasher):
+    def __init__(self, hasher: BaseHasherInterface):
+        self._hasher = hasher
+
+    def hash(self, password: str) -> str:
+        return self._hasher.hash(password)
+
+    def verify(self, password: str, password_hash: str) -> bool:
+        return self._hasher.verify(password_hash, password)
+
+
+_KEY = "password.hasher"
+password_hasher: PasswordHasher = cast(PasswordHasher, GlobalProxy(_KEY))
+
+
+def init_hasher():
+    global_storage.set(
+        _KEY,
+        PasswordHasher(hasher=Argon2Hasher()),
+    )
+    log.info("Hasher successfully initialized")

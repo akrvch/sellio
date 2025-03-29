@@ -28,6 +28,7 @@ user_table = Table("user", metadata, autoload_with=engine)
 company_table = Table("company", metadata, autoload_with=engine)
 delivery_option_table = Table("delivery_option", metadata, autoload_with=engine)
 payment_option_table = Table("payment_option", metadata, autoload_with=engine)
+product_table = Table("product", metadata, autoload_with=engine)
 
 
 def insert_categories(connection) -> None:
@@ -70,6 +71,14 @@ def insert_payments(connection) -> None:
     connection.execute(payment_option_table.insert(), payments)
 
 
+def insert_products(connection) -> None:
+    with open(Path(__file__).parent / "products-mocks.json") as f:
+        products = json.load(f)
+
+    connection.execute(sa_text("TRUNCATE product CASCADE"))
+    connection.execute(product_table.insert(), products)
+
+
 if __name__ == "__main__":
     with engine.begin() as conn:
         insert_categories(conn)
@@ -77,3 +86,4 @@ if __name__ == "__main__":
         insert_companies(conn)
         insert_deliveries(conn)
         insert_payments(conn)
+        insert_products(conn)

@@ -579,9 +579,13 @@ dependencies = [
     { name = "prometheus-client" },
     { name = "psycopg2-binary" },
     { name = "pydantic-settings" },
-    { name = "ruff" },
     { name = "sqlalchemy", extra = ["asyncio"] },
     { name = "toml" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "ruff" },
 ]
 
 [package.metadata]
@@ -595,10 +599,12 @@ requires-dist = [
     { name = "prometheus-client", specifier = "==0.21.1" },
     { name = "psycopg2-binary", specifier = ">=2.9.10" },
     { name = "pydantic-settings", specifier = ">=2.8.1" },
-    { name = "ruff", specifier = "==0.11.1" },
     { name = "sqlalchemy", extras = ["asyncio"], specifier = "==2.0.39" },
     { name = "toml", specifier = "==0.10.2" },
 ]
+
+[package.metadata.requires-dev]
+dev = [{ name = "ruff", specifier = "==0.11.1" }]
 
 [[package]]
 name = "shellingham"
