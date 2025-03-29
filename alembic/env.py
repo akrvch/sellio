@@ -22,7 +22,7 @@ def get_url():
     return get_sql_alchemy_db_url(
         user=db_config["user"],
         password=db_config["password"],
-        host=db_config["host"],
+        host="127.0.0.1",
         port=db_config["port"],
         db=db_config["db"],
     )
