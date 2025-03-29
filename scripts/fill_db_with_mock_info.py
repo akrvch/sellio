@@ -13,7 +13,7 @@ def get_db_url() -> str:
     db_config = config["main_db"]
     user = db_config["user"]
     password = db_config["password"]
-    host = db_config["host"]
+    host = "localhost"
     port = db_config["port"]
     db = db_config["db"]
     driver = "postgresql"
