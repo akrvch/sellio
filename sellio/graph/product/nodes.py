@@ -17,8 +17,8 @@ ProductNode = Node(
     [
         Field("id", Integer, product_sg),
         Field("name", String, product_sg.c(S.this.name)),
-        Field("description", String, product_sg.c(S.this.name)),
-        Field("price", String, product_sg.c(S.this.name)),
+        Field("description", String, product_sg.c(S.this.description)),
+        Field("price", String, product_sg.c(S.this.price)),
         Field("categoryId", String, product_sg.c(S.this.category_id)),
         Field("companyId", String, product_sg.c(S.this.company_id)),
         Field(
