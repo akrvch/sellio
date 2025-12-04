@@ -32,6 +32,13 @@ class Product(Base):
     category_id: Mapped[int] = mapped_column(
         Integer, ForeignKey("category.id"), index=True, unique=False
     )
+    product_group_id: Mapped[int | None] = mapped_column(
+        Integer,
+        ForeignKey("product_group.id"),
+        index=True,
+        unique=False,
+        nullable=True,
+    )
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), server_default=func.now()
     )

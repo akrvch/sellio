@@ -3,12 +3,15 @@ from hiku.graph import Field
 from hiku.graph import Link
 from hiku.graph import Node
 from hiku.types import Integer
+from hiku.types import Optional
 from hiku.types import Sequence
 from hiku.types import String
 from hiku.types import TypeRef
 
 from sellio.db_graph import product_sg
 from sellio.graph import direct_link
+from sellio.graph.product.defs import calculate_discounted_price
+from sellio.graph.product.defs import get_discount_percent
 from sellio.graph.product.defs import get_product_delivery_options_contexts
 from sellio.graph.product.defs import get_product_payment_options_contexts
 
@@ -21,6 +24,20 @@ ProductNode = Node(
         Field("price", String, product_sg.c(S.this.price)),
         Field("categoryId", String, product_sg.c(S.this.category_id)),
         Field("companyId", String, product_sg.c(S.this.company_id)),
+        Field(
+            "discountPercent",
+            Optional[Integer],
+            product_sg.c(get_discount_percent(S.this.product_discount)),
+        ),
+        Field(
+            "discountedPrice",
+            String,
+            product_sg.c(
+                calculate_discounted_price(
+                    S.this.price, S.this.product_discount
+                )
+            ),
+        ),
         Field(
             "_delivery_options_context",
             String,
@@ -38,6 +55,12 @@ ProductNode = Node(
                     S.this.company.payment_options
                 )
             ),
+        ),
+        Link(
+            "category",
+            TypeRef["Category"],
+            direct_link,
+            requires="categoryId",
         ),
         Link(
             "company",

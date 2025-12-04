@@ -7,6 +7,7 @@ from hiku.graph import Graph
 from hiku.graph import Root
 from hiku.schema import Schema
 
+from sellio.graph.category.nodes import CategoryNode
 from sellio.graph.company.nodes import CompanyNode
 from sellio.graph.context import get_graph_context
 from sellio.graph.delivery_option.nodes import DeliveryOptionNode
@@ -20,6 +21,7 @@ GRAPH = Graph(
         DeliveryOptionNode,
         PaymentOptionNode,
         ProductNode,
+        CategoryNode,
         Root([ProductListLink]),
     ]
 )
