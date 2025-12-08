@@ -19,7 +19,9 @@ class Category(Base):
         unique=True,
     )
     name: Mapped[str] = mapped_column(String(length=120))
-    alias: Mapped[str] = mapped_column(String(length=120), unique=True, index=True)
+    alias: Mapped[str] = mapped_column(
+        String(length=120), unique=True, index=True
+    )
     description: Mapped[str] = mapped_column(Text)
     parent_category_id: Mapped[int] = mapped_column(
         Integer,

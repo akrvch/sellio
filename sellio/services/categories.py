@@ -93,7 +93,9 @@ class CachedCategories:
     def get_category_by_id(self, category_id: int) -> CachedCategory | None:
         return self._categories_by_id.get(category_id)
 
-    def get_category_by_alias(self, category_alias: str) -> CachedCategory | None:
+    def get_category_by_alias(
+        self, category_alias: str
+    ) -> CachedCategory | None:
         return self._categories_by_alias.get(category_alias)
 
 

@@ -11,6 +11,7 @@ from hiku.types import Record
 from hiku.types import Sequence
 from hiku.types import String
 
+from sellio import url
 from sellio.graph.product.types import ProductDeliveryOptionContext
 from sellio.graph.product.types import ProductPaymentOptionContext
 from sellio.lib.product import discount_is_active
@@ -102,3 +103,7 @@ def calculate_discounted_price(
     return get_discounted_proudct_pirce(
         Decimal(product_price), product_discount.percent
     )
+
+
+def get_product_url(product_id: int, product_name: str) -> str:
+    return url.product(product_id, product_name, absolute=True)

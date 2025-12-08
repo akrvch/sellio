@@ -23,7 +23,9 @@ class SqlAlEnumDecorator(TypeDecorator):
             return value.name
         return value
 
-    def process_result_value(self, value: str | None, _: Dialect) -> Enum | None:
+    def process_result_value(
+        self, value: str | None, _: Dialect
+    ) -> Enum | None:
         if value is None:
             return None
         return self.enumcls[value]

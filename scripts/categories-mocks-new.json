@@ -297,14 +297,6 @@
   },
   {
     "id": 37,
-    "name": "Дитячі підгузки",
-    "description": "Дитячі підгузки",
-    "parent_category_id": 32,
-    "is_adult": false,
-    "alias": "Dytyachi-pidhuzky"
-  },
-  {
-    "id": 38,
     "name": "Чоловіча косметика та аксесуари для гоління",
     "description": "Категорія чоловічої косметики та аксесуарів для гоління",
     "parent_category_id": 2,
@@ -312,47 +304,47 @@
     "alias": "Cholovicha-kosmetyka-ta-aksesuary-dlya-holinnya"
   },
   {
-    "id": 39,
+    "id": 38,
     "name": "Аксесуари та змінні касети для гоління",
     "description": "Аксесуари та змінні касети для гоління",
-    "parent_category_id": 38,
+    "parent_category_id": 37,
     "is_adult": false,
     "alias": "Aksesuary-ta-zminni-kasety-dlya-holinnya"
   },
   {
-    "id": 40,
+    "id": 39,
     "name": "Чоловічі електробритви",
     "description": "Чоловічі електробритви",
-    "parent_category_id": 38,
+    "parent_category_id": 37,
     "is_adult": false,
     "alias": "Cholovichi-elektrobrytvy"
   },
   {
-    "id": 41,
+    "id": 40,
     "name": "Бритви",
     "description": "Бритви",
-    "parent_category_id": 38,
+    "parent_category_id": 37,
     "is_adult": false,
     "alias": "Brytvy"
   },
   {
-    "id": 42,
+    "id": 41,
     "name": "Косметика для гоління",
     "description": "Косметика для гоління",
-    "parent_category_id": 38,
+    "parent_category_id": 37,
     "is_adult": false,
     "alias": "Kosmetyka-dlya-holinnya"
   },
   {
-    "id": 43,
+    "id": 42,
     "name": "Чоловіча косметика по догляду за волоссям",
     "description": "Чоловіча косметика по догляду за волоссям",
-    "parent_category_id": 38,
+    "parent_category_id": 37,
     "is_adult": false,
     "alias": "Cholovicha-kosmetyka-po-dohlyadu-za-volossyam"
   },
   {
-    "id": 44,
+    "id": 43,
     "name": "Чоловічий одяг",
     "description": "Категорія чоловічого одягу",
     "parent_category_id": 3,
@@ -360,47 +352,47 @@
     "alias": "Cholovichyy-odyah"
   },
   {
-    "id": 45,
+    "id": 44,
     "name": "Чоловічі футболки та майки",
     "description": "Чоловічі футболки та майки",
-    "parent_category_id": 44,
+    "parent_category_id": 43,
     "is_adult": false,
     "alias": "Cholovichi-futbolky-ta-mayky"
   },
   {
-    "id": 46,
+    "id": 45,
     "name": "Чоловіча білизна та купальні плавки",
     "description": "Чоловіча білизна та купальні плавки",
-    "parent_category_id": 44,
+    "parent_category_id": 43,
     "is_adult": false,
     "alias": "Cholovicha-bilyzna-ta-kupalni-plavky"
   },
   {
-    "id": 47,
+    "id": 46,
     "name": "Чоловічий верхній одяг",
     "description": "Чоловічий верхній одяг",
-    "parent_category_id": 44,
+    "parent_category_id": 43,
     "is_adult": false,
     "alias": "Cholovichyy-verkhniy-odyah"
   },
   {
-    "id": 48,
+    "id": 47,
     "name": "Чоловічі толстовки і реглани",
     "description": "Чоловічі толстовки і реглани",
-    "parent_category_id": 44,
+    "parent_category_id": 43,
     "is_adult": false,
     "alias": "Cholovichi-tolstovky-i-rehlany"
   },
   {
-    "id": 49,
+    "id": 48,
     "name": "Чоловічі светри та кардигани",
     "description": "Чоловічі светри та кардигани",
-    "parent_category_id": 44,
+    "parent_category_id": 43,
     "is_adult": false,
     "alias": "Cholovichi-svetry-ta-kardyhany"
   },
   {
-    "id": 50,
+    "id": 49,
     "name": "Жіночий одяг",
     "description": "Категорія жіночого одягу",
     "parent_category_id": 3,
@@ -408,95 +400,47 @@
     "alias": "Zhinochyy-odyah"
   },
   {
-    "id": 51,
+    "id": 50,
     "name": "Жіноча білизна і купальники",
     "description": "Жіноча білизна і купальники",
-    "parent_category_id": 50,
+    "parent_category_id": 49,
     "is_adult": false,
     "alias": "Zhinocha-bilyzna-i-kupalnyky"
   },
   {
-    "id": 52,
+    "id": 51,
     "name": "Жіночі сукні",
     "description": "Жіночі сукні",
-    "parent_category_id": 50,
+    "parent_category_id": 49,
     "is_adult": false,
     "alias": "Zhinochi-sukni"
   },
   {
-    "id": 53,
+    "id": 52,
     "name": "Жіночий верхній одяг",
     "description": "Жіночий верхній одяг",
-    "parent_category_id": 50,
+    "parent_category_id": 49,
     "is_adult": false,
     "alias": "Zhinochyy-verkhniy-odyah"
   },
   {
-    "id": 54,
+    "id": 53,
     "name": "Жіночий одяг для сну та дому",
     "description": "Жіночий одяг для сну та дому",
-    "parent_category_id": 50,
+    "parent_category_id": 49,
     "is_adult": false,
     "alias": "Zhinochyy-odyah-dlya-snu-ta-domu"
   },
   {
-    "id": 55,
+    "id": 54,
     "name": "Жіночі светри та кардигани",
     "description": "Жіночі светри та кардигани",
-    "parent_category_id": 50,
+    "parent_category_id": 49,
     "is_adult": false,
     "alias": "Zhinochi-svetry-ta-kardyhany"
   },
   {
-    "id": 56,
-    "name": "Дитячий одяг та взуття",
-    "description": "Категорія дитячого одягу та взуття",
-    "parent_category_id": 3,
-    "is_adult": false,
-    "alias": "Dytyachyy-odyah-ta-vzuttya"
-  },
-  {
-    "id": 57,
-    "name": "Одяг для дівчаток",
-    "description": "Одяг для дівчаток",
-    "parent_category_id": 56,
-    "is_adult": false,
-    "alias": "Odyah-dlya-divchatok"
-  },
-  {
-    "id": 58,
-    "name": "Дитяче та підліткове взуття",
-    "description": "Дитяче та підліткове взуття",
-    "parent_category_id": 56,
-    "is_adult": false,
-    "alias": "Dytyache-ta-pidlitkove-vzuttya"
-  },
-  {
-    "id": 59,
-    "name": "Одяг для малюків",
-    "description": "Одяг для малюків",
-    "parent_category_id": 56,
-    "is_adult": false,
-    "alias": "Odyah-dlya-malyukiv"
-  },
-  {
-    "id": 60,
-    "name": "Дитячі аксесуари",
-    "description": "Дитячі аксесуари",
-    "parent_category_id": 56,
-    "is_adult": false,
-    "alias": "Dytyachi-aksesuary"
-  },
-  {
-    "id": 61,
-    "name": "Одяг для хлопчиків",
-    "description": "Одяг для хлопчиків",
-    "parent_category_id": 56,
-    "is_adult": false,
-    "alias": "Odyah-dlya-khlopchykiv"
-  },
-  {
-    "id": 62,
+    "id": 55,
     "name": "Спортивний одяг та взуття",
     "description": "Категорія спортивного одягу та взуття",
     "parent_category_id": 3,
@@ -504,47 +448,47 @@
     "alias": "Sportyvnyy-odyah-ta-vzuttya"
   },
   {
-    "id": 63,
+    "id": 56,
     "name": "Кросівки та кеди",
     "description": "Кросівки та кеди",
-    "parent_category_id": 62,
+    "parent_category_id": 55,
     "is_adult": false,
     "alias": "Krosivky-ta-kedy"
   },
   {
-    "id": 64,
+    "id": 57,
     "name": "Спортивні костюми",
     "description": "Спортивні костюми",
-    "parent_category_id": 62,
+    "parent_category_id": 55,
     "is_adult": false,
     "alias": "Sportyvni-kostyumy"
   },
   {
-    "id": 65,
+    "id": 58,
     "name": "Взуття для спорту та активного відпочинку",
     "description": "Взуття для спорту та активного відпочинку",
-    "parent_category_id": 62,
+    "parent_category_id": 55,
     "is_adult": false,
     "alias": "Vzuttya-dlya-sportu-ta-aktyvnoho-vidpochynku"
   },
   {
-    "id": 66,
+    "id": 59,
     "name": "Дитячі та підліткові кросівки, кеди",
     "description": "Дитячі та підліткові кросівки, кеди",
-    "parent_category_id": 62,
+    "parent_category_id": 55,
     "is_adult": false,
     "alias": "Dytyachi-ta-pidlitkovi-krosivky-kedy"
   },
   {
-    "id": 67,
+    "id": 60,
     "name": "Бейсболки і кепки",
     "description": "Бейсболки і кепки",
-    "parent_category_id": 62,
+    "parent_category_id": 55,
     "is_adult": false,
     "alias": "Beysbolky-i-kepky"
   },
   {
-    "id": 68,
+    "id": 61,
     "name": "Автозапчастини",
     "description": "Категорія автозапчастин",
     "parent_category_id": 4,
@@ -552,47 +496,47 @@
     "alias": "Avtozapchastyny"
   },
   {
-    "id": 69,
+    "id": 62,
     "name": "Деталі ходової",
     "description": "Деталі ходової",
-    "parent_category_id": 68,
+    "parent_category_id": 61,
     "is_adult": false,
     "alias": "Detali-khodovoyi"
   },
   {
-    "id": 70,
+    "id": 63,
     "name": "Кузовні запчастини",
     "description": "Кузовні запчастини",
-    "parent_category_id": 68,
+    "parent_category_id": 61,
     "is_adult": false,
     "alias": "Kuzovni-zapchastyny"
   },
   {
-    "id": 71,
+    "id": 64,
     "name": "Світлові прилади транспорту",
     "description": "Світлові прилади транспорту",
-    "parent_category_id": 68,
+    "parent_category_id": 61,
     "is_adult": false,
     "alias": "Svitlovi-prylady-transportu"
   },
   {
-    "id": 72,
+    "id": 65,
     "name": "Двигуни і деталі двигуна",
     "description": "Двигуни і деталі двигуна",
-    "parent_category_id": 68,
+    "parent_category_id": 61,
     "is_adult": false,
     "alias": "Dvyhuny-i-detali-dvyhuna"
   },
   {
-    "id": 73,
+    "id": 66,
     "name": "Система живлення двигуна",
     "description": "Система живлення двигуна",
-    "parent_category_id": 68,
+    "parent_category_id": 61,
     "is_adult": false,
     "alias": "Systema-zhyvlennya-dvyhuna"
   },
   {
-    "id": 74,
+    "id": 67,
     "name": "Аксесуари для авто",
     "description": "Категорія аксесуарів для авто",
     "parent_category_id": 4,
@@ -600,47 +544,47 @@
     "alias": "Aksesuary-dlya-avto"
   },
   {
-    "id": 75,
+    "id": 68,
     "name": "Аксесуари салону автомобіля",
     "description": "Аксесуари салону автомобіля",
-    "parent_category_id": 74,
+    "parent_category_id": 67,
     "is_adult": false,
     "alias": "Aksesuary-salonu-avtomobilya"
   },
   {
-    "id": 76,
+    "id": 69,
     "name": "Аксесуари для автотюнингу",
     "description": "Аксесуари для автотюнингу",
-    "parent_category_id": 74,
+    "parent_category_id": 67,
     "is_adult": false,
     "alias": "Aksesuary-dlya-avtotyunynhu"
   },
   {
-    "id": 77,
+    "id": 70,
     "name": "Аксесуари для кузова автомобіля",
     "description": "Аксесуари для кузова автомобіля",
-    "parent_category_id": 74,
+    "parent_category_id": 67,
     "is_adult": false,
     "alias": "Aksesuary-dlya-kuzova-avtomobilya"
   },
   {
-    "id": 78,
+    "id": 71,
     "name": "Засоби аварійної безпеки",
     "description": "Засоби аварійної безпеки",
-    "parent_category_id": 74,
+    "parent_category_id": 67,
     "is_adult": false,
     "alias": "Zasoby-avariynoyi-bezpeky"
   },
   {
-    "id": 79,
+    "id": 72,
     "name": "Автомобільні електронні аксесуари",
     "description": "Автомобільні електронні аксесуари",
-    "parent_category_id": 74,
+    "parent_category_id": 67,
     "is_adult": false,
     "alias": "Avtomobilni-elektronni-aksesuary"
   },
   {
-    "id": 80,
+    "id": 73,
     "name": "Диски і шини",
     "description": "Категорія дисків і шин",
     "parent_category_id": 4,
@@ -648,47 +592,47 @@
     "alias": "Dysky-i-shyny"
   },
   {
-    "id": 81,
+    "id": 74,
     "name": "Колісні диски",
     "description": "Колісні диски",
-    "parent_category_id": 80,
+    "parent_category_id": 73,
     "is_adult": false,
     "alias": "Kolisni-dysky"
   },
   {
-    "id": 82,
+    "id": 75,
     "name": "Ковпаки для дисків",
     "description": "Ковпаки для дисків",
-    "parent_category_id": 80,
+    "parent_category_id": 73,
     "is_adult": false,
     "alias": "Kovpaky-dlya-dyskiv"
   },
   {
-    "id": 83,
+    "id": 76,
     "name": "Болти, секретні болти, гайки",
     "description": "Болти, секретні болти, гайки",
-    "parent_category_id": 80,
+    "parent_category_id": 73,
     "is_adult": false,
     "alias": "Bolty-sekretni-bolty-hayky"
   },
   {
-    "id": 84,
+    "id": 77,
     "name": "Проставки, центрувальні кільця для дисків",
     "description": "Проставки, центрувальні кільця для дисків",
-    "parent_category_id": 80,
+    "parent_category_id": 73,
     "is_adult": false,
     "alias": "Prostavky-tsentruvalni-kiltsya-dlya-dyskiv"
   },
   {
-    "id": 85,
+    "id": 78,
     "name": "Камери для шин та ободні стрічки",
     "description": "Камери для шин та ободні стрічки",
-    "parent_category_id": 80,
+    "parent_category_id": 73,
     "is_adult": false,
     "alias": "Kamery-dlya-shyn-ta-obodni-strichky"
   },
   {
-    "id": 86,
+    "id": 79,
     "name": "Електрообладнання автомобілів",
     "description": "Категорія електрообладнання автомобілів",
     "parent_category_id": 4,
@@ -696,47 +640,47 @@
     "alias": "Elektroobladnannya-avtomobiliv"
   },
   {
-    "id": 87,
+    "id": 80,
     "name": "Автомобільні реле і датчики",
     "description": "Автомобільні реле і датчики",
-    "parent_category_id": 86,
+    "parent_category_id": 79,
     "is_adult": false,
     "alias": "Avtomobilni-rele-i-datchyky"
   },
   {
-    "id": 88,
+    "id": 81,
     "name": "Стартери і комплектуючі",
     "description": "Стартери і комплектуючі",
-    "parent_category_id": 86,
+    "parent_category_id": 79,
     "is_adult": false,
     "alias": "Startery-i-komplektuyuchi"
   },
   {
-    "id": 89,
+    "id": 82,
     "name": "Автомобільні акумулятори",
     "description": "Автомобільні акумулятори",
-    "parent_category_id": 86,
+    "parent_category_id": 79,
     "is_adult": false,
     "alias": "Avtomobilni-akumulyatory"
   },
   {
-    "id": 90,
+    "id": 83,
     "name": "Генератори, альтернатори і комплектуючі",
     "description": "Генератори, альтернатори і комплектуючі",
-    "parent_category_id": 86,
+    "parent_category_id": 79,
     "is_adult": false,
     "alias": "Heneratory-alternatory-i-komplektuyuchi"
   },
   {
-    "id": 91,
+    "id": 84,
     "name": "Блоки управління",
     "description": "Блоки управління",
-    "parent_category_id": 86,
+    "parent_category_id": 79,
     "is_adult": false,
     "alias": "Bloky-upravlinnya"
   },
   {
-    "id": 92,
+    "id": 85,
     "name": "Наручні і кишенькові годинники",
     "description": "Категорія наручних і кишенькових годинників",
     "parent_category_id": 5,
@@ -744,31 +688,31 @@
     "alias": "Naruchni-i-kyshenkovi-hodynnyky"
   },
   {
-    "id": 93,
+    "id": 86,
     "name": "Наручні та кишенькові годинники",
     "description": "Наручні та кишенькові годинники",
-    "parent_category_id": 92,
+    "parent_category_id": 85,
     "is_adult": false,
     "alias": "Naruchni-ta-kyshenkovi-hodynnyky"
   },
   {
-    "id": 94,
+    "id": 87,
     "name": "Ремінці та браслети для годинників",
     "description": "Ремінці та браслети для годинників",
-    "parent_category_id": 92,
+    "parent_category_id": 85,
     "is_adult": false,
     "alias": "Remintsi-ta-braslety-dlya-hodynnykiv"
   },
   {
-    "id": 95,
+    "id": 88,
     "name": "Скриньки для годинників",
     "description": "Скриньки для годинників",
-    "parent_category_id": 92,
+    "parent_category_id": 85,
     "is_adult": false,
     "alias": "Skrynky-dlya-hodynnykiv"
   },
   {
-    "id": 96,
+    "id": 89,
     "name": "Аксесуари",
     "description": "Категорія аксесуарів",
     "parent_category_id": 5,
@@ -776,31 +720,31 @@
     "alias": "Aksesuary"
   },
   {
-    "id": 97,
+    "id": 90,
     "name": "Сонцезахисні окуляри",
     "description": "Сонцезахисні окуляри",
-    "parent_category_id": 96,
+    "parent_category_id": 89,
     "is_adult": false,
     "alias": "Sontsezakhysni-okulyary"
   },
   {
-    "id": 99,
+    "id": 91,
     "name": "Головні убори",
     "description": "Головні убори",
-    "parent_category_id": 96,
+    "parent_category_id": 89,
     "is_adult": false,
     "alias": "Holovni-ubory"
   },
   {
-    "id": 100,
+    "id": 92,
     "name": "Гаманці та портмоне",
     "description": "Гаманці та портмоне",
-    "parent_category_id": 96,
+    "parent_category_id": 89,
     "is_adult": false,
     "alias": "Hamantsi-ta-portmone"
   },
   {
-    "id": 101,
+    "id": 93,
     "name": "Сумки, валізи, портфелі",
     "description": "Категорія сумок, валіз та портфелів",
     "parent_category_id": 5,
@@ -808,39 +752,39 @@
     "alias": "Sumky-valizy-portfeli"
   },
   {
-    "id": 102,
+    "id": 94,
     "name": "Жіночі сумочки і клатчі",
     "description": "Жіночі сумочки і клатчі",
-    "parent_category_id": 101,
+    "parent_category_id": 93,
     "is_adult": false,
     "alias": "Zhinochi-sumochky-i-klatchi"
   },
   {
-    "id": 103,
+    "id": 95,
     "name": "Міські та спортивні рюкзаки",
     "description": "Міські та спортивні рюкзаки",
-    "parent_category_id": 101,
+    "parent_category_id": 93,
     "is_adult": false,
     "alias": "Miski-ta-sportyvni-ryukzaky"
   },
   {
-    "id": 104,
+    "id": 96,
     "name": "Чоловічі сумки",
     "description": "Чоловічі сумки",
-    "parent_category_id": 101,
+    "parent_category_id": 93,
     "is_adult": false,
     "alias": "Cholovichi-sumky"
   },
   {
-    "id": 105,
+    "id": 97,
     "name": "Дорожні сумки та валізи",
     "description": "Дорожні сумки та валізи",
-    "parent_category_id": 101,
+    "parent_category_id": 93,
     "is_adult": false,
     "alias": "Dorozhni-sumky-ta-valizy"
   },
   {
-    "id": 106,
+    "id": 98,
     "name": "Ювелірні вироби",
     "description": "Категорія ювелірних виробів",
     "parent_category_id": 5,
@@ -848,47 +792,47 @@
     "alias": "Yuvelirni-vyroby"
   },
   {
-    "id": 107,
+    "id": 99,
     "name": "Ювелірні вироби зі срібла",
     "description": "Ювелірні вироби зі срібла",
-    "parent_category_id": 106,
+    "parent_category_id": 98,
     "is_adult": false,
     "alias": "Yuvelirni-vyroby-zi-sribla"
   },
   {
-    "id": 108,
+    "id": 100,
     "name": "Ювелірні вироби з золота",
     "description": "Ювелірні вироби з золота",
-    "parent_category_id": 106,
+    "parent_category_id": 98,
     "is_adult": false,
     "alias": "Yuvelirni-vyroby-z-zolota"
   },
   {
-    "id": 109,
+    "id": 101,
     "name": "Ювелірне каміння",
     "description": "Ювелірне каміння",
-    "parent_category_id": 106,
+    "parent_category_id": 98,
     "is_adult": false,
     "alias": "Yuvelirne-kaminnya"
   },
   {
-    "id": 110,
+    "id": 102,
     "name": "Обручки",
     "description": "Обручки",
-    "parent_category_id": 106,
+    "parent_category_id": 98,
     "is_adult": false,
     "alias": "Obruchky"
   },
   {
-    "id": 111,
+    "id": 103,
     "name": "Футляри та підставки для коштовностей",
     "description": "Футляри та підставки для коштовностей",
-    "parent_category_id": 106,
+    "parent_category_id": 98,
     "is_adult": false,
     "alias": "Futlyary-ta-pidstavky-dlya-koshtovnostey"
   },
   {
-    "id": 112,
+    "id": 104,
     "name": "Біжутерія",
     "description": "Категорія біжутерії",
     "parent_category_id": 5,
@@ -896,47 +840,47 @@
     "alias": "Bizhuteriya"
   },
   {
-    "id": 113,
+    "id": 105,
     "name": "Сережки",
     "description": "Сережки",
-    "parent_category_id": 112,
+    "parent_category_id": 104,
     "is_adult": false,
     "alias": "Serezhky"
   },
   {
-    "id": 114,
+    "id": 106,
     "name": "Браслети",
     "description": "Браслети",
-    "parent_category_id": 112,
+    "parent_category_id": 104,
     "is_adult": false,
     "alias": "Braslety"
   },
   {
-    "id": 115,
+    "id": 107,
     "name": "Кулони",
     "description": "Кулони",
-    "parent_category_id": 112,
+    "parent_category_id": 104,
     "is_adult": false,
     "alias": "Kulony"
   },
   {
-    "id": 116,
+    "id": 108,
     "name": "Кольє та намисто",
     "description": "Кольє та намисто",
-    "parent_category_id": 112,
+    "parent_category_id": 104,
     "is_adult": false,
     "alias": "Kolye-ta-namysto"
   },
   {
-    "id": 117,
+    "id": 109,
     "name": "Кільця та персні",
     "description": "Кільця та персні",
-    "parent_category_id": 112,
+    "parent_category_id": 104,
     "is_adult": false,
     "alias": "Kiltsya-ta-persni"
   },
   {
-    "id": 118,
+    "id": 110,
     "name": "Товари для домашніх тварин і птахів",
     "description": "Категорія товарів для домашніх тварин і птахів",
     "parent_category_id": 6,
@@ -944,47 +888,39 @@
     "alias": "Tovary-dlya-domashnikh-tvaryn-i-ptakhiv"
   },
   {
-    "id": 119,
+    "id": 111,
     "name": "Годування домашніх тварин і птахів",
     "description": "Годування домашніх тварин і птахів",
-    "parent_category_id": 118,
+    "parent_category_id": 110,
     "is_adult": false,
     "alias": "Hoduvannya-domashnikh-tvaryn-i-ptakhiv"
   },
   {
-    "id": 120,
+    "id": 112,
     "name": "Товари для комфорту домашніх тварин",
     "description": "Товари для комфорту домашніх тварин",
-    "parent_category_id": 118,
+    "parent_category_id": 110,
     "is_adult": false,
     "alias": "Tovary-dlya-komfortu-domashnikh-tvaryn"
   },
   {
-    "id": 121,
+    "id": 113,
     "name": "Товари для догляду за домашніми тваринами",
     "description": "Товари для догляду за домашніми тваринами",
-    "parent_category_id": 118,
+    "parent_category_id": 110,
     "is_adult": false,
     "alias": "Tovary-dlya-dohlyadu-za-domashnimy-tvarynamy"
   },
   {
-    "id": 122,
+    "id": 114,
     "name": "Товари для прогулянок і подорожей з тваринами",
     "description": "Товари для прогулянок і подорожей з тваринами",
-    "parent_category_id": 118,
+    "parent_category_id": 110,
     "is_adult": false,
     "alias": "Tovary-dlya-prohulyanok-i-podorozhey-z-tvarynamy"
   },
   {
-    "id": 123,
-    "name": "Одяг для домашніх тварин",
-    "description": "Одяг для домашніх тварин",
-    "parent_category_id": 118,
-    "is_adult": false,
-    "alias": "Odyah-dlya-domashnikh-tvaryn"
-  },
-  {
-    "id": 124,
+    "id": 115,
     "name": "Ветеринарія",
     "description": "Категорія ветеринарних товарів",
     "parent_category_id": 6,
@@ -992,31 +928,31 @@
     "alias": "Veterynariya"
   },
   {
-    "id": 125,
+    "id": 116,
     "name": "Ветеринарні засоби та препарати",
     "description": "Ветеринарні засоби та препарати",
-    "parent_category_id": 124,
+    "parent_category_id": 115,
     "is_adult": false,
     "alias": "Veterynarni-zasoby-ta-preparaty"
   },
   {
-    "id": 126,
+    "id": 117,
     "name": "Ветеринарні інструменти та інвентар",
     "description": "Ветеринарні інструменти та інвентар",
-    "parent_category_id": 124,
+    "parent_category_id": 115,
     "is_adult": false,
     "alias": "Veterynarni-instrumenty-ta-inventar"
   },
   {
-    "id": 127,
+    "id": 118,
     "name": "Ветеринарне обладнання",
     "description": "Ветеринарне обладнання",
-    "parent_category_id": 124,
+    "parent_category_id": 115,
     "is_adult": false,
     "alias": "Veterynarne-obladnannya"
   },
   {
-    "id": 128,
+    "id": 119,
     "name": "Товари для риб",
     "description": "Категорія товарів для риб",
     "parent_category_id": 6,
@@ -1024,47 +960,47 @@
     "alias": "Tovary-dlya-ryb"
   },
   {
-    "id": 129,
+    "id": 120,
     "name": "Корми для риб",
     "description": "Корми для риб",
-    "parent_category_id": 128,
+    "parent_category_id": 119,
     "is_adult": false,
     "alias": "Kormy-dlya-ryb"
   },
   {
-    "id": 130,
+    "id": 121,
     "name": "Рослини, декорації, грунти для акваріума",
     "description": "Рослини, декорації, грунти для акваріума",
-    "parent_category_id": 128,
+    "parent_category_id": 119,
     "is_adult": false,
     "alias": "Roslyny-dekoratsiyi-hrunty-dlya-akvariuma"
   },
   {
-    "id": 131,
+    "id": 122,
     "name": "Фільтри для акваріума",
     "description": "Фільтри для акваріума",
-    "parent_category_id": 128,
+    "parent_category_id": 119,
     "is_adult": false,
     "alias": "Filtry-dlya-akvariuma"
   },
   {
-    "id": 132,
+    "id": 123,
     "name": "Акваріуми",
     "description": "Акваріуми",
-    "parent_category_id": 128,
+    "parent_category_id": 119,
     "is_adult": false,
     "alias": "Akvariumy"
   },
   {
-    "id": 133,
+    "id": 124,
     "name": "Насоси, помпи і компресори для акваріума",
     "description": "Насоси, помпи і компресори для акваріума",
-    "parent_category_id": 128,
+    "parent_category_id": 119,
     "is_adult": false,
     "alias": "Nasosy-pompy-i-kompresory-dlya-akvariuma"
   },
   {
-    "id": 134,
+    "id": 125,
     "name": "Одяг для домашніх тварин",
     "description": "Категорія одягу для домашніх тварин",
     "parent_category_id": 6,
@@ -1072,47 +1008,47 @@
     "alias": "Odyah-dlya-domashnikh-tvaryn"
   },
   {
-    "id": 135,
+    "id": 126,
     "name": "Куртки, комбінезони та дощовики для тварин",
     "description": "Куртки, комбінезони та дощовики для тварин",
-    "parent_category_id": 134,
+    "parent_category_id": 125,
     "is_adult": false,
     "alias": "Kurtky-kombinezony-ta-doshchovyky-dlya-tvaryn"
   },
   {
-    "id": 136,
+    "id": 127,
     "name": "Светри і футболки для тварин",
     "description": "Светри і футболки для тварин",
-    "parent_category_id": 134,
+    "parent_category_id": 125,
     "is_adult": false,
     "alias": "Svetry-i-futbolky-dlya-tvaryn"
   },
   {
-    "id": 137,
+    "id": 128,
     "name": "Сукні, брюки і костюми для тварин",
     "description": "Сукні, брюки і костюми для тварин",
-    "parent_category_id": 134,
+    "parent_category_id": 125,
     "is_adult": false,
     "alias": "Sukni-bryuky-i-kostyumy-dlya-tvaryn"
   },
   {
-    "id": 138,
+    "id": 129,
     "name": "Взуття та шкарпетки для тварин",
     "description": "Взуття та шкарпетки для тварин",
-    "parent_category_id": 134,
+    "parent_category_id": 125,
     "is_adult": false,
     "alias": "Vzuttya-ta-shkarpetky-dlya-tvaryn"
   },
   {
-    "id": 139,
+    "id": 130,
     "name": "Біжутерія і аксесуари для тварин",
     "description": "Біжутерія і аксесуари для тварин",
-    "parent_category_id": 134,
+    "parent_category_id": 125,
     "is_adult": false,
     "alias": "Bizhuteriya-i-aksesuary-dlya-tvaryn"
   },
   {
-    "id": 140,
+    "id": 131,
     "name": "Іграшки",
     "description": "Категорія іграшок",
     "parent_category_id": 7,
@@ -1120,47 +1056,47 @@
     "alias": "Ihrashky"
   },
   {
-    "id": 141,
+    "id": 132,
     "name": "Конструктори",
     "description": "Конструктори",
-    "parent_category_id": 140,
+    "parent_category_id": 131,
     "is_adult": false,
     "alias": "Konstruktory"
   },
   {
-    "id": 142,
+    "id": 133,
     "name": "Розвиваючі та навчальні іграшки",
     "description": "Розвиваючі та навчальні іграшки",
-    "parent_category_id": 140,
+    "parent_category_id": 131,
     "is_adult": false,
     "alias": "Rozvyvayuchi-ta-navchalni-ihrashky"
   },
   {
-    "id": 143,
+    "id": 134,
     "name": "М'які іграшки",
     "description": "М'які іграшки",
-    "parent_category_id": 140,
+    "parent_category_id": 131,
     "is_adult": false,
     "alias": "Myaki-ihrashky"
   },
   {
-    "id": 144,
+    "id": 135,
     "name": "Ляльки, пупси",
     "description": "Ляльки, пупси",
-    "parent_category_id": 140,
+    "parent_category_id": 131,
     "is_adult": false,
     "alias": "Lyalky-pupsy"
   },
   {
-    "id": 145,
+    "id": 136,
     "name": "Радіокеровані іграшки",
     "description": "Радіокеровані іграшки",
-    "parent_category_id": 140,
+    "parent_category_id": 131,
     "is_adult": false,
     "alias": "Radiokerovani-ihrashky"
   },
   {
-    "id": 146,
+    "id": 137,
     "name": "Дитячий одяг та взуття",
     "description": "Категорія дитячого одягу та взуття",
     "parent_category_id": 7,
@@ -1168,47 +1104,47 @@
     "alias": "Dytyachyy-odyah-ta-vzuttya"
   },
   {
-    "id": 147,
+    "id": 138,
     "name": "Одяг для дівчаток",
     "description": "Одяг для дівчаток",
-    "parent_category_id": 146,
+    "parent_category_id": 137,
     "is_adult": false,
     "alias": "Odyah-dlya-divchatok"
   },
   {
-    "id": 148,
+    "id": 139,
     "name": "Дитяче та підліткове взуття",
     "description": "Дитяче та підліткове взуття",
-    "parent_category_id": 146,
+    "parent_category_id": 137,
     "is_adult": false,
     "alias": "Dytyache-ta-pidlitkove-vzuttya"
   },
   {
-    "id": 149,
+    "id": 140,
     "name": "Одяг для малюків",
     "description": "Одяг для малюків",
-    "parent_category_id": 146,
+    "parent_category_id": 137,
     "is_adult": false,
     "alias": "Odyah-dlya-malyukiv"
   },
   {
-    "id": 150,
+    "id": 141,
     "name": "Дитячі аксесуари",
     "description": "Дитячі аксесуари",
-    "parent_category_id": 146,
+    "parent_category_id": 137,
     "is_adult": false,
     "alias": "Dytyachi-aksesuary"
   },
   {
-    "id": 151,
+    "id": 142,
     "name": "Одяг для хлопчиків",
     "description": "Одяг для хлопчиків",
-    "parent_category_id": 146,
+    "parent_category_id": 137,
     "is_adult": false,
     "alias": "Odyah-dlya-khlopchykiv"
   },
   {
-    "id": 152,
+    "id": 143,
     "name": "Дитячий транспорт та автокрісла",
     "description": "Категорія дитячого транспорту та автокрісел",
     "parent_category_id": 7,
@@ -1216,47 +1152,47 @@
     "alias": "Dytyachyy-transport-ta-avtokrisla"
   },
   {
-    "id": 153,
-    "name": "Велосипеди",
+    "id": 144,
+    "name": "Дитячі велосипеди",
     "description": "Дитячі велосипеди",
-    "parent_category_id": 152,
+    "parent_category_id": 143,
     "is_adult": false,
-    "alias": "Velosypedy"
+    "alias": "Dytyachi-velosypedy"
   },
   {
-    "id": 154,
+    "id": 145,
     "name": "Дитячі коляски",
     "description": "Дитячі коляски",
-    "parent_category_id": 152,
+    "parent_category_id": 143,
     "is_adult": false,
     "alias": "Dytyachi-kolyasky"
   },
   {
-    "id": 155,
+    "id": 146,
     "name": "Самокати",
     "description": "Дитячі самокати",
-    "parent_category_id": 152,
+    "parent_category_id": 143,
     "is_adult": false,
     "alias": "Samokaty"
   },
   {
-    "id": 156,
+    "id": 147,
     "name": "Дитячі автокрісла",
     "description": "Дитячі автокрісла",
-    "parent_category_id": 152,
+    "parent_category_id": 143,
     "is_adult": false,
     "alias": "Dytyachi-avtokrisla"
   },
   {
-    "id": 157,
+    "id": 148,
     "name": "Конверти для новонароджених",
     "description": "Конверти для новонароджених",
-    "parent_category_id": 152,
+    "parent_category_id": 143,
     "is_adult": false,
     "alias": "Konverty-dlya-novonarodzhenykh"
   },
   {
-    "id": 158,
+    "id": 149,
     "name": "Дитячий текстиль",
     "description": "Категорія дитячого текстилю",
     "parent_category_id": 7,
@@ -1264,47 +1200,39 @@
     "alias": "Dytyachyy-tekstyl"
   },
   {
-    "id": 159,
+    "id": 150,
     "name": "Дитяча постільна білизна",
     "description": "Дитяча постільна білизна",
-    "parent_category_id": 158,
+    "parent_category_id": 149,
     "is_adult": false,
     "alias": "Dytyacha-postilna-bilyzna"
   },
   {
-    "id": 160,
-    "name": "Тканинні пелюшки",
-    "description": "Тканинні пелюшки",
-    "parent_category_id": 158,
-    "is_adult": false,
-    "alias": "Tkanynni-pelyushky"
-  },
-  {
-    "id": 161,
+    "id": 151,
     "name": "Дитячі покривала та пледи",
     "description": "Дитячі покривала та пледи",
-    "parent_category_id": 158,
+    "parent_category_id": 149,
     "is_adult": false,
     "alias": "Dytyachi-pokryvala-ta-pledy"
   },
   {
-    "id": 162,
+    "id": 152,
     "name": "Захист в дитяче ліжечко",
     "description": "Захист в дитяче ліжечко",
-    "parent_category_id": 158,
+    "parent_category_id": 149,
     "is_adult": false,
     "alias": "Zakhyst-v-dytyache-lizhechko"
   },
   {
-    "id": 163,
+    "id": 153,
     "name": "Дитячі подушки",
     "description": "Дитячі подушки",
-    "parent_category_id": 158,
+    "parent_category_id": 149,
     "is_adult": false,
     "alias": "Dytyachi-podushky"
   },
   {
-    "id": 164,
+    "id": 154,
     "name": "Дитячі ігри",
     "description": "Категорія дитячих ігор",
     "parent_category_id": 7,
@@ -1312,47 +1240,47 @@
     "alias": "Dytyachi-ihry"
   },
   {
-    "id": 165,
+    "id": 155,
     "name": "Настільні ігри",
     "description": "Настільні ігри",
-    "parent_category_id": 164,
+    "parent_category_id": 154,
     "is_adult": false,
     "alias": "Nastilni-ihry"
   },
   {
-    "id": 166,
+    "id": 156,
     "name": "Надувні круги, платформи",
     "description": "Надувні круги, платформи",
-    "parent_category_id": 164,
+    "parent_category_id": 154,
     "is_adult": false,
     "alias": "Naduvni-kruhy-platformy"
   },
   {
-    "id": 167,
+    "id": 157,
     "name": "Дитячі ігрові намети, будиночки",
     "description": "Дитячі ігрові намети, будиночки",
-    "parent_category_id": 164,
+    "parent_category_id": 154,
     "is_adult": false,
     "alias": "Dytyachi-ihrovi-namety-budynochky"
   },
   {
-    "id": 168,
+    "id": 158,
     "name": "Дитячі м'ячі",
     "description": "Дитячі м'ячі",
-    "parent_category_id": 164,
+    "parent_category_id": 154,
     "is_adult": false,
     "alias": "Dytyachi-myachi"
   },
   {
-    "id": 169,
+    "id": 159,
     "name": "Ігрові майданчики та пісочниці",
     "description": "Ігрові майданчики та пісочниці",
-    "parent_category_id": 164,
+    "parent_category_id": 154,
     "is_adult": false,
     "alias": "Ihrovi-maydanchyky-ta-pisochnytsi"
   },
   {
-    "id": 170,
+    "id": 160,
     "name": "Гігієна та догляд за дітьми",
     "description": "Категорія гігієни та догляду за дітьми",
     "parent_category_id": 7,
@@ -1360,47 +1288,47 @@
     "alias": "Hihiyena-ta-dohlyad-za-ditmy"
   },
   {
-    "id": 171,
+    "id": 161,
     "name": "Зволожувачі та очищувачі повітря",
     "description": "Зволожувачі та очищувачі повітря",
-    "parent_category_id": 170,
+    "parent_category_id": 160,
     "is_adult": false,
     "alias": "Zvolozhuvachi-ta-ochyshchuvachi-povitrya"
   },
   {
-    "id": 172,
+    "id": 162,
     "name": "Тканинні пелюшки",
     "description": "Тканинні пелюшки",
-    "parent_category_id": 170,
+    "parent_category_id": 160,
     "is_adult": false,
     "alias": "Tkanynni-pelyushky"
   },
   {
-    "id": 173,
+    "id": 163,
     "name": "Пустушки та прорізувачі для зубів",
     "description": "Пустушки та прорізувачі для зубів",
-    "parent_category_id": 170,
+    "parent_category_id": 160,
     "is_adult": false,
     "alias": "Pustushky-ta-prorizuvachi-dlya-zubiv"
   },
   {
-    "id": 174,
+    "id": 164,
     "name": "Дитячі підгузки",
     "description": "Дитячі підгузки",
-    "parent_category_id": 170,
+    "parent_category_id": 160,
     "is_adult": false,
     "alias": "Dytyachi-pidhuzky"
   },
   {
-    "id": 175,
+    "id": 165,
     "name": "Дитячі горщики та сидіння на унітаз",
     "description": "Дитячі горщики та сидіння на унітаз",
-    "parent_category_id": 170,
+    "parent_category_id": 160,
     "is_adult": false,
     "alias": "Dytyachi-horshchyky-ta-sydinnya-na-unitaz"
   },
   {
-    "id": 176,
+    "id": 166,
     "name": "Велосипеди та аксесуари",
     "description": "Категорія велосипедів та аксесуарів",
     "parent_category_id": 8,
@@ -1408,47 +1336,47 @@
     "alias": "Velosypedy-ta-aksesuary"
   },
   {
-    "id": 177,
+    "id": 167,
     "name": "Велосипеди",
     "description": "Велосипеди",
-    "parent_category_id": 176,
+    "parent_category_id": 166,
     "is_adult": false,
     "alias": "Velosypedy"
   },
   {
-    "id": 178,
+    "id": 168,
     "name": "Велозапчастини",
     "description": "Велозапчастини",
-    "parent_category_id": 176,
+    "parent_category_id": 166,
     "is_adult": false,
     "alias": "Velozapchastyny"
   },
   {
-    "id": 179,
+    "id": 169,
     "name": "Велоаксесуари",
     "description": "Велоаксесуари",
-    "parent_category_id": 176,
+    "parent_category_id": 166,
     "is_adult": false,
     "alias": "Veloaksesuary"
   },
   {
-    "id": 180,
+    "id": 170,
     "name": "Велоекіпірування",
     "description": "Велоекіпірування",
-    "parent_category_id": 176,
+    "parent_category_id": 166,
     "is_adult": false,
     "alias": "Veloekipiruvannya"
   },
   {
-    "id": 181,
+    "id": 171,
     "name": "Електровелосипеди",
     "description": "Електровелосипеди",
-    "parent_category_id": 176,
+    "parent_category_id": 166,
     "is_adult": false,
     "alias": "Elektrovelosypedy"
   },
   {
-    "id": 182,
+    "id": 172,
     "name": "Спортивні товари",
     "description": "Категорія спортивних товарів",
     "parent_category_id": 8,
@@ -1456,47 +1384,39 @@
     "alias": "Sportyvni-tovary"
   },
   {
-    "id": 183,
+    "id": 173,
     "name": "Спортивні сумки та рюкзаки",
     "description": "Спортивні сумки та рюкзаки",
-    "parent_category_id": 182,
+    "parent_category_id": 172,
     "is_adult": false,
     "alias": "Sportyvni-sumky-ta-ryukzaky"
   },
   {
-    "id": 184,
+    "id": 174,
     "name": "Ролики, скейтборди та самокати",
     "description": "Ролики, скейтборди та самокати",
-    "parent_category_id": 182,
+    "parent_category_id": 172,
     "is_adult": false,
     "alias": "Rolyky-skeytbordy-ta-samokaty"
   },
   {
-    "id": 185,
-    "name": "Велосипеди",
-    "description": "Спортивні велосипеди",
-    "parent_category_id": 182,
-    "is_adult": false,
-    "alias": "Velosypedy"
-  },
-  {
-    "id": 186,
+    "id": 175,
     "name": "Фітнес",
     "description": "Фітнес товари",
-    "parent_category_id": 182,
+    "parent_category_id": 172,
     "is_adult": false,
     "alias": "Fitnes"
   },
   {
-    "id": 187,
+    "id": 176,
     "name": "Бойові мистецтва",
     "description": "Товари для бойових мистецтв",
-    "parent_category_id": 182,
+    "parent_category_id": 172,
     "is_adult": false,
     "alias": "Boyovi-mystetstva"
   },
   {
-    "id": 188,
+    "id": 177,
     "name": "Тренажери",
     "description": "Категорія тренажерів",
     "parent_category_id": 8,
@@ -1504,47 +1424,47 @@
     "alias": "Trenazhery"
   },
   {
-    "id": 189,
+    "id": 178,
     "name": "Гантелі, гирі, штанги та диски",
     "description": "Гантелі, гирі, штанги та диски",
-    "parent_category_id": 188,
+    "parent_category_id": 177,
     "is_adult": false,
     "alias": "Hanteli-hyri-shtanhy-ta-dysky"
   },
   {
-    "id": 190,
+    "id": 179,
     "name": "Еспандери",
     "description": "Еспандери",
-    "parent_category_id": 188,
+    "parent_category_id": 177,
     "is_adult": false,
     "alias": "Espandery"
   },
   {
-    "id": 191,
+    "id": 180,
     "name": "Спортивні стінки і турніки для дому",
     "description": "Спортивні стінки і турніки для дому",
-    "parent_category_id": 188,
+    "parent_category_id": 177,
     "is_adult": false,
     "alias": "Sportyvni-stinky-i-turniky-dlya-domu"
   },
   {
-    "id": 192,
+    "id": 181,
     "name": "Силові тренажери",
     "description": "Силові тренажери",
-    "parent_category_id": 188,
+    "parent_category_id": 177,
     "is_adult": false,
     "alias": "Sylovi-trenazhery"
   },
   {
-    "id": 193,
+    "id": 182,
     "name": "Вуличні тренажери, комплекси",
     "description": "Вуличні тренажери, комплекси",
-    "parent_category_id": 188,
+    "parent_category_id": 177,
     "is_adult": false,
     "alias": "Vulychni-trenazhery-kompleksy"
   },
   {
-    "id": 194,
+    "id": 183,
     "name": "Екстремальні види спорту",
     "description": "Категорія екстремальних видів спорту",
     "parent_category_id": 8,
@@ -1552,47 +1472,47 @@
     "alias": "Ekstremalni-vydy-sportu"
   },
   {
-    "id": 195,
+    "id": 184,
     "name": "Дайвінг",
     "description": "Товари для дайвінгу",
-    "parent_category_id": 194,
+    "parent_category_id": 183,
     "is_adult": false,
     "alias": "Dayvinh"
   },
   {
-    "id": 196,
+    "id": 185,
     "name": "Альпінізм",
     "description": "Товари для альпінізму",
-    "parent_category_id": 194,
+    "parent_category_id": 183,
     "is_adult": false,
     "alias": "Alpinizm"
   },
   {
-    "id": 197,
+    "id": 186,
     "name": "Спортивний захист",
     "description": "Спортивний захист",
-    "parent_category_id": 194,
+    "parent_category_id": 183,
     "is_adult": false,
     "alias": "Sportyvnyy-zakhyst"
   },
   {
-    "id": 198,
+    "id": 187,
     "name": "Віндсерфінг та SUP серфінг",
     "description": "Товари для віндсерфінгу та SUP серфінгу",
-    "parent_category_id": 194,
+    "parent_category_id": 183,
     "is_adult": false,
     "alias": "Vindserfinh-ta-SUP-serfinh"
   },
   {
-    "id": 199,
+    "id": 188,
     "name": "Байдарки, рафти, каяки",
     "description": "Байдарки, рафти, каяки",
-    "parent_category_id": 194,
+    "parent_category_id": 183,
     "is_adult": false,
     "alias": "Baydarky-rafty-kayaky"
   },
   {
-    "id": 200,
+    "id": 189,
     "name": "Книги, журнали, друкована продукція",
     "description": "Категорія книг, журналів та друкованої продукції",
     "parent_category_id": 9,
@@ -1600,47 +1520,47 @@
     "alias": "Knyhy-zhurnaly-drukovana-produktsiya"
   },
   {
-    "id": 201,
+    "id": 190,
     "name": "Книги",
     "description": "Книги",
-    "parent_category_id": 200,
+    "parent_category_id": 189,
     "is_adult": false,
     "alias": "Knyhy"
   },
   {
-    "id": 202,
+    "id": 191,
     "name": "Книги для дітей",
     "description": "Книги для дітей",
-    "parent_category_id": 200,
+    "parent_category_id": 189,
     "is_adult": false,
     "alias": "Knyhy-dlya-ditey"
   },
   {
-    "id": 203,
+    "id": 192,
     "name": "Календарі та плакати",
     "description": "Календарі та плакати",
-    "parent_category_id": 200,
+    "parent_category_id": 189,
     "is_adult": false,
     "alias": "Kalendari-ta-plakaty"
   },
   {
-    "id": 204,
+    "id": 193,
     "name": "Технічна література",
     "description": "Технічна література",
-    "parent_category_id": 200,
+    "parent_category_id": 189,
     "is_adult": false,
     "alias": "Tekhnichna-literatura"
   },
   {
-    "id": 205,
+    "id": 194,
     "name": "Навчальні плакати",
     "description": "Навчальні плакати",
-    "parent_category_id": 200,
+    "parent_category_id": 189,
     "is_adult": false,
     "alias": "Navchalni-plakaty"
   },
   {
-    "id": 206,
+    "id": 195,
     "name": "Дитяча творчість та малювання",
     "description": "Категорія дитячої творчості та малювання",
     "parent_category_id": 9,
@@ -1648,47 +1568,47 @@
     "alias": "Dytyacha-tvorchist-ta-malyuvannya"
   },
   {
-    "id": 207,
+    "id": 196,
     "name": "Картини за номерами",
     "description": "Картини за номерами",
-    "parent_category_id": 206,
+    "parent_category_id": 195,
     "is_adult": false,
     "alias": "Kartyny-za-nomeramy"
   },
   {
-    "id": 208,
+    "id": 197,
     "name": "Товари для дитячої творчості",
     "description": "Товари для дитячої творчості",
-    "parent_category_id": 206,
+    "parent_category_id": 195,
     "is_adult": false,
     "alias": "Tovary-dlya-dytyachoyi-tvorchosti"
   },
   {
-    "id": 209,
+    "id": 198,
     "name": "Пластилін та маса для ліплення",
     "description": "Пластилін та маса для ліплення",
-    "parent_category_id": 206,
+    "parent_category_id": 195,
     "is_adult": false,
     "alias": "Plastylin-ta-masa-dlya-liplennya"
   },
   {
-    "id": 210,
+    "id": 199,
     "name": "Художні фарби",
     "description": "Художні фарби",
-    "parent_category_id": 206,
+    "parent_category_id": 195,
     "is_adult": false,
     "alias": "Khudozhni-farby"
   },
   {
-    "id": 211,
+    "id": 200,
     "name": "3D ручки",
     "description": "3D ручки",
-    "parent_category_id": 206,
+    "parent_category_id": 195,
     "is_adult": false,
     "alias": "3D-ruchky"
   },
   {
-    "id": 212,
+    "id": 201,
     "name": "Папір та паперові вироби",
     "description": "Категорія паперу та паперових виробів",
     "parent_category_id": 9,
@@ -1696,47 +1616,47 @@
     "alias": "Papir-ta-paperovi-vyroby"
   },
   {
-    "id": 213,
+    "id": 202,
     "name": "Органайзери, щоденники, блокноти",
     "description": "Органайзери, щоденники, блокноти",
-    "parent_category_id": 212,
+    "parent_category_id": 201,
     "is_adult": false,
     "alias": "Orhanayzery-shchodennyky-bloknoty"
   },
   {
-    "id": 214,
+    "id": 203,
     "name": "Офісний та поліграфічний папір",
     "description": "Офісний та поліграфічний папір",
-    "parent_category_id": 212,
+    "parent_category_id": 201,
     "is_adult": false,
     "alias": "Ofisnyy-ta-polihrafichnyy-papir"
   },
   {
-    "id": 215,
+    "id": 204,
     "name": "Папір та картон для творчості",
     "description": "Папір та картон для творчості",
-    "parent_category_id": 212,
+    "parent_category_id": 201,
     "is_adult": false,
     "alias": "Papir-ta-karton-dlya-tvorchosti"
   },
   {
-    "id": 216,
+    "id": 205,
     "name": "Стікери",
     "description": "Стікери",
-    "parent_category_id": 212,
+    "parent_category_id": 201,
     "is_adult": false,
     "alias": "Stikery"
   },
   {
-    "id": 217,
+    "id": 206,
     "name": "Папір та альбоми для малювання",
     "description": "Папір та альбоми для малювання",
-    "parent_category_id": 212,
+    "parent_category_id": 201,
     "is_adult": false,
     "alias": "Papir-ta-albomy-dlya-malyuvannya"
   },
   {
-    "id": 218,
+    "id": 207,
     "name": "Письмове приладдя",
     "description": "Категорія письмового приладдя",
     "parent_category_id": 9,
@@ -1744,47 +1664,39 @@
     "alias": "Pysmove-pryladdya"
   },
   {
-    "id": 219,
-    "name": "Канцелярські ручки",
-    "description": "Канцелярські ручки",
-    "parent_category_id": 218,
-    "is_adult": false,
-    "alias": "Kantselyarski-ruchky"
-  },
-  {
-    "id": 220,
+    "id": 208,
     "name": "Маркери, фломастери",
     "description": "Маркери, фломастери",
-    "parent_category_id": 218,
+    "parent_category_id": 207,
     "is_adult": false,
     "alias": "Markery-flomastery"
   },
   {
-    "id": 221,
+    "id": 209,
     "name": "Олівці",
     "description": "Олівці",
-    "parent_category_id": 218,
+    "parent_category_id": 207,
     "is_adult": false,
     "alias": "Olivtsi"
   },
   {
-    "id": 222,
+    "id": 210,
     "name": "Аксесуари для ручок і олівців",
     "description": "Аксесуари для ручок і олівців",
-    "parent_category_id": 218,
+    "parent_category_id": 207,
     "is_adult": false,
     "alias": "Aksesuary-dlya-ruchok-i-olivtsiv"
   },
   {
-    "id": 223,
+    "id": 211,
     "name": "Підставки для канцелярського приладдя",
     "description": "Підставки для канцелярського приладдя",
-    "parent_category_id": 218,
+    "parent_category_id": 207,
     "is_adult": false,
     "alias": "Pidstavky-dlya-kantselyarskoho-pryladdya"
   },
   {
-    "id": 224,
+    "id": 212,
     "name": "Шкільне приладдя",
     "description": "Категорія шкільного приладдя",
     "parent_category_id": 9,
@@ -1792,42 +1704,34 @@
     "alias": "Shkilne-pryladdya"
   },
   {
-    "id": 225,
+    "id": 213,
     "name": "Шкільні рюкзаки та портфелі",
     "description": "Шкільні рюкзаки та портфелі",
-    "parent_category_id": 224,
+    "parent_category_id": 212,
     "is_adult": false,
     "alias": "Shkilni-ryukzaky-ta-portfeli"
   },
   {
-    "id": 226,
+    "id": 214,
     "name": "Дитячі сумки і рюкзаки",
     "description": "Дитячі сумки і рюкзаки",
-    "parent_category_id": 224,
+    "parent_category_id": 212,
     "is_adult": false,
     "alias": "Dytyachi-sumky-i-ryukzaky"
   },
   {
-    "id": 227,
+    "id": 215,
     "name": "Канцелярські ручки",
     "description": "Канцелярські ручки для школи",
-    "parent_category_id": 224,
+    "parent_category_id": 212,
     "is_adult": false,
     "alias": "Kantselyarski-ruchky"
   },
   {
-    "id": 228,
-    "name": "Маркери, фломастери",
-    "description": "Маркери, фломастери для школи",
-    "parent_category_id": 224,
-    "is_adult": false,
-    "alias": "Markery-flomastery"
-  },
-  {
-    "id": 229,
+    "id": 216,
     "name": "Шкільні пенали",
     "description": "Шкільні пенали",
-    "parent_category_id": 224,
+    "parent_category_id": 212,
     "is_adult": false,
     "alias": "Shkilni-penaly"
   }
