@@ -1,0 +1,1303 @@
+[
+  {
+    "id": 1,
+    "name": "Бездротові навушники AirPods Pro",
+    "description": "Преміум бездротові навушники з активним шумопоглинанням",
+    "price": 8999.99,
+    "company_id": 3,
+    "category_id": 11,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Навушники Sony WH-1000XM5",
+    "description": "Бездротові навушники з чудовою якістю звуку",
+    "price": 12999.99,
+    "company_id": 7,
+    "category_id": 11,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 3,
+    "name": "Гарнітура Logitech G Pro X",
+    "description": "Професійна ігрова гарнітура з мікрофоном",
+    "price": 5499.99,
+    "company_id": 2,
+    "category_id": 11,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 4,
+    "name": "Навушники Samsung Galaxy Buds2",
+    "description": "Компактні бездротові навушники для Android",
+    "price": 3999.99,
+    "company_id": 5,
+    "category_id": 11,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 5,
+    "name": "Навушники JBL Tune 750BTNC",
+    "description": "Бездротові навушники з шумопоглинанням",
+    "price": 3499.99,
+    "company_id": 9,
+    "category_id": 11,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 6,
+    "name": "Гарнітура HyperX Cloud II",
+    "description": "Ігрова гарнітура з 7.1 surround звуком",
+    "price": 4299.99,
+    "company_id": 1,
+    "category_id": 11,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 7,
+    "name": "Навушники Beats Studio Buds",
+    "description": "Бездротові навушники з активним шумопоглинанням",
+    "price": 5999.99,
+    "company_id": 4,
+    "category_id": 11,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 8,
+    "name": "Навушники Sennheiser HD 450BT",
+    "description": "Бездротові навушники з високою якістю звуку",
+    "price": 4999.99,
+    "company_id": 8,
+    "category_id": 11,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 9,
+    "name": "Гарнітура Razer BlackShark V2",
+    "description": "Професійна ігрова гарнітура з THX Spatial Audio",
+    "price": 3799.99,
+    "company_id": 6,
+    "category_id": 11,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 10,
+    "name": "Навушники Apple AirPods Max",
+    "description": "Преміум бездротові навушники з просторовим звуком",
+    "price": 19999.99,
+    "company_id": 10,
+    "category_id": 11,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 11,
+    "name": "USB-C кабель для зарядки",
+    "description": "Швидка зарядка USB-C кабель 2 метри",
+    "price": 299.99,
+    "company_id": 2,
+    "category_id": 12,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 12,
+    "name": "HDMI кабель 4K Ultra HD",
+    "description": "Високошвидкісний HDMI кабель для 4K роздільної здатності",
+    "price": 599.99,
+    "company_id": 5,
+    "category_id": 12,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 13,
+    "name": "Lightning кабель Apple",
+    "description": "Оригінальний Lightning кабель для iPhone та iPad",
+    "price": 899.99,
+    "company_id": 3,
+    "category_id": 12,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 14,
+    "name": "USB 3.0 кабель для передачі даних",
+    "description": "Швидкий USB 3.0 кабель для синхронізації пристроїв",
+    "price": 249.99,
+    "company_id": 7,
+    "category_id": 12,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 15,
+    "name": "Micro USB кабель",
+    "description": "Універсальний Micro USB кабель для зарядки",
+    "price": 199.99,
+    "company_id": 1,
+    "category_id": 12,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 16,
+    "name": "Ethernet кабель Cat6",
+    "description": "Високошвидкісний мережевий кабель Cat6",
+    "price": 449.99,
+    "company_id": 9,
+    "category_id": 12,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 17,
+    "name": "USB-C до USB-A кабель",
+    "description": "Адаптерний кабель USB-C до USB-A",
+    "price": 349.99,
+    "company_id": 4,
+    "category_id": 12,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 18,
+    "name": "Audio кабель 3.5mm",
+    "description": "Якісний аудіо кабель для навушників",
+    "price": 399.99,
+    "company_id": 8,
+    "category_id": 12,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 19,
+    "name": "Thunderbolt 3 кабель",
+    "description": "Швидкий Thunderbolt 3 кабель для MacBook",
+    "price": 1299.99,
+    "company_id": 6,
+    "category_id": 12,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 20,
+    "name": "DisplayPort кабель",
+    "description": "Кабель DisplayPort для підключення моніторів",
+    "price": 799.99,
+    "company_id": 10,
+    "category_id": 12,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 21,
+    "name": "JBL Flip 6 Портативна колонка",
+    "description": "Компактна бездротова колонка з потужним звуком",
+    "price": 4999.99,
+    "company_id": 5,
+    "category_id": 13,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 22,
+    "name": "Sony SRS-XB43 Портативна колонка",
+    "description": "Потужна портативна колонка з басами Extra Bass",
+    "price": 6999.99,
+    "company_id": 7,
+    "category_id": 13,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 23,
+    "name": "Bose SoundLink Flex",
+    "description": "Водонепроникна портативна колонка з чудовим звуком",
+    "price": 8999.99,
+    "company_id": 2,
+    "category_id": 13,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 24,
+    "name": "Ultimate Ears Boom 3",
+    "description": "Міцна портативна колонка з 360° звуком",
+    "price": 5999.99,
+    "company_id": 9,
+    "category_id": 13,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 25,
+    "name": "Anker Soundcore Motion+",
+    "description": "Портативна колонка з Hi-Res Audio",
+    "price": 3999.99,
+    "company_id": 1,
+    "category_id": 13,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 26,
+    "name": "Marshall Acton III",
+    "description": "Портативна колонка з класичним дизайном",
+    "price": 7999.99,
+    "company_id": 4,
+    "category_id": 13,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 27,
+    "name": "Harman Kardon Onyx Studio 7",
+    "description": "Елегантна портативна колонка з потужним звуком",
+    "price": 9999.99,
+    "company_id": 8,
+    "category_id": 13,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 28,
+    "name": "Sonos Move",
+    "description": "Розумна портативна колонка з підтримкою Alexa",
+    "price": 14999.99,
+    "company_id": 6,
+    "category_id": 13,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 29,
+    "name": "Bang & Olufsen Beosound A1",
+    "description": "Преміум портативна колонка з високою якістю",
+    "price": 12999.99,
+    "company_id": 3,
+    "category_id": 13,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 30,
+    "name": "Tribit StormBox Pro",
+    "description": "Потужна портативна колонка з батареєю на 20 годин",
+    "price": 4499.99,
+    "company_id": 10,
+    "category_id": 13,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 31,
+    "name": "Sony HT-A7000 Акустична система",
+    "description": "Потужна звукова панель з Dolby Atmos",
+    "price": 49999.99,
+    "company_id": 7,
+    "category_id": 14,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 32,
+    "name": "Bose Lifestyle 650",
+    "description": "Преміум акустична система 5.1 з бездротовими сабвуферами",
+    "price": 89999.99,
+    "company_id": 2,
+    "category_id": 14,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 33,
+    "name": "Samsung HW-Q950A",
+    "description": "Акустична система 11.1.4 з Dolby Atmos",
+    "price": 79999.99,
+    "company_id": 5,
+    "category_id": 14,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 34,
+    "name": "Sonos Arc",
+    "description": "Розумна звукова панель з підтримкою голосових помічників",
+    "price": 44999.99,
+    "company_id": 9,
+    "category_id": 14,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 35,
+    "name": "Yamaha MusicCast BAR 400",
+    "description": "Компактна звукова панель з бездротовим підключенням",
+    "price": 29999.99,
+    "company_id": 1,
+    "category_id": 14,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 36,
+    "name": "LG S95QR",
+    "description": "Акустична система 9.1.5 з Dolby Atmos",
+    "price": 69999.99,
+    "company_id": 4,
+    "category_id": 14,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 37,
+    "name": "Denon Home Sound Bar 550",
+    "description": "Звукова панель з HEOS мультикімнатною технологією",
+    "price": 34999.99,
+    "company_id": 8,
+    "category_id": 14,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 38,
+    "name": "JBL Bar 9.1",
+    "description": "Акустична система з відокремлюваними сателітами",
+    "price": 54999.99,
+    "company_id": 6,
+    "category_id": 14,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 39,
+    "name": "Klipsch Cinema 800",
+    "description": "Потужна акустична система з сабвуфером",
+    "price": 39999.99,
+    "company_id": 3,
+    "category_id": 14,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 40,
+    "name": "Vizio Elevate P514a-H6",
+    "description": "Акустична система з ротаційними високочастотними динаміками",
+    "price": 59999.99,
+    "company_id": 10,
+    "category_id": 14,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 41,
+    "name": "Apple iPod Touch",
+    "description": "Компактний MP3/MP4 плеєр з сенсорним екраном",
+    "price": 8999.99,
+    "company_id": 3,
+    "category_id": 15,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 42,
+    "name": "Sony Walkman NW-A105",
+    "description": "Високоякісний MP3 плеєр з Android",
+    "price": 12999.99,
+    "company_id": 7,
+    "category_id": 15,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 43,
+    "name": "Fiio M11 Plus",
+    "description": "Преміум Hi-Fi MP3 плеєр з потужним звуком",
+    "price": 19999.99,
+    "company_id": 2,
+    "category_id": 15,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 44,
+    "name": "SanDisk Clip Sport Plus",
+    "description": "Компактний MP3 плеєр для спорту",
+    "price": 2499.99,
+    "company_id": 5,
+    "category_id": 15,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 45,
+    "name": "Astell & Kern A&norma SR25",
+    "description": "Преміум Hi-Res Audio плеєр",
+    "price": 34999.99,
+    "company_id": 9,
+    "category_id": 15,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 46,
+    "name": "iRiver Astell&Kern AK70",
+    "description": "Високоякісний портативний аудіо плеєр",
+    "price": 24999.99,
+    "company_id": 1,
+    "category_id": 15,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 47,
+    "name": "Hidizs AP80 Pro",
+    "description": "Компактний Hi-Fi плеєр з Bluetooth",
+    "price": 5999.99,
+    "company_id": 4,
+    "category_id": 15,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 48,
+    "name": "Shanling M6 Pro",
+    "description": "Преміум DAP плеєр з потужним звуком",
+    "price": 27999.99,
+    "company_id": 8,
+    "category_id": 15,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 49,
+    "name": "Cowon Plenue D2",
+    "description": "Компактний Hi-Fi плеєр з довгим часом роботи",
+    "price": 14999.99,
+    "company_id": 6,
+    "category_id": 15,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 50,
+    "name": "Pioneer XDP-100R",
+    "description": "Портативний Hi-Res Audio плеєр",
+    "price": 17999.99,
+    "company_id": 10,
+    "category_id": 15,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 51,
+    "name": "iPhone 15 Pro Max",
+    "description": "Преміум смартфон з потужним процесором A17 Pro",
+    "price": 59999.99,
+    "company_id": 3,
+    "category_id": 17,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 52,
+    "name": "Samsung Galaxy S24 Ultra",
+    "description": "Флагманський смартфон з S Pen та потужною камерою",
+    "price": 54999.99,
+    "company_id": 5,
+    "category_id": 17,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 53,
+    "name": "Google Pixel 8 Pro",
+    "description": "Смартфон з найкращою камерою та штучним інтелектом",
+    "price": 44999.99,
+    "company_id": 2,
+    "category_id": 17,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 54,
+    "name": "Xiaomi 14 Pro",
+    "description": "Потужний смартфон з Leica камерою",
+    "price": 39999.99,
+    "company_id": 7,
+    "category_id": 17,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 55,
+    "name": "OnePlus 12",
+    "description": "Швидкий смартфон з Snapdragon 8 Gen 3",
+    "price": 37999.99,
+    "company_id": 9,
+    "category_id": 17,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 56,
+    "name": "Huawei P60 Pro",
+    "description": "Смартфон з потужною камерою та швидкою зарядкою",
+    "price": 42999.99,
+    "company_id": 1,
+    "category_id": 17,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 57,
+    "name": "Sony Xperia 1 V",
+    "description": "Професійний смартфон для фотографії та відео",
+    "price": 49999.99,
+    "company_id": 4,
+    "category_id": 17,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 58,
+    "name": "Nothing Phone 2",
+    "description": "Унікальний смартфон з прозорим дизайном",
+    "price": 34999.99,
+    "company_id": 8,
+    "category_id": 17,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 59,
+    "name": "Motorola Edge 40 Pro",
+    "description": "Потужний смартфон з швидкою зарядкою",
+    "price": 32999.99,
+    "company_id": 6,
+    "category_id": 17,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 60,
+    "name": "Realme GT 5 Pro",
+    "description": "Геймерський смартфон з потужним процесором",
+    "price": 29999.99,
+    "company_id": 10,
+    "category_id": 17,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 61,
+    "name": "Apple Watch Series 9",
+    "description": "Розумний годинник з функціями здоров'я та фітнесу",
+    "price": 14999.99,
+    "company_id": 3,
+    "category_id": 18,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 62,
+    "name": "Samsung Galaxy Watch 6",
+    "description": "Розумний годинник з Android Wear OS",
+    "price": 12999.99,
+    "company_id": 5,
+    "category_id": 18,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 63,
+    "name": "Garmin Forerunner 965",
+    "description": "Професійний фітнес годинник для бігу",
+    "price": 24999.99,
+    "company_id": 2,
+    "category_id": 18,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 64,
+    "name": "Fitbit Charge 6",
+    "description": "Фітнес браслет з моніторингом здоров'я",
+    "price": 4999.99,
+    "company_id": 9,
+    "category_id": 18,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 65,
+    "name": "Xiaomi Mi Band 8",
+    "description": "Бюджетний фітнес браслет з багатьма функціями",
+    "price": 1999.99,
+    "company_id": 7,
+    "category_id": 18,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 66,
+    "name": "Huawei Watch GT 4",
+    "description": "Розумний годинник з довгим часом роботи",
+    "price": 8999.99,
+    "company_id": 1,
+    "category_id": 18,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 67,
+    "name": "Polar Vantage V3",
+    "description": "Професійний спортивний годинник",
+    "price": 29999.99,
+    "company_id": 4,
+    "category_id": 18,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 68,
+    "name": "Amazfit GTR 4",
+    "description": "Розумний годинник з GPS та моніторингом здоров'я",
+    "price": 5999.99,
+    "company_id": 8,
+    "category_id": 18,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 69,
+    "name": "Suunto 9 Baro",
+    "description": "Витривалий спортивний годинник для екстремальних умов",
+    "price": 34999.99,
+    "company_id": 6,
+    "category_id": 18,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 70,
+    "name": "Withings ScanWatch 2",
+    "description": "Розумний годинник з медичним моніторингом",
+    "price": 17999.99,
+    "company_id": 10,
+    "category_id": 18,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 71,
+    "name": "Чохол для iPhone 15 Pro",
+    "description": "Захисний чохол з прозорого полікарбонату",
+    "price": 899.99,
+    "company_id": 3,
+    "category_id": 19,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 72,
+    "name": "Скло для захисту екрана",
+    "description": "Захисне скло 9H для смартфонів",
+    "price": 499.99,
+    "company_id": 5,
+    "category_id": 19,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 73,
+    "name": "Бездротова зарядка",
+    "description": "Швидка бездротова зарядка Qi 15W",
+    "price": 1299.99,
+    "company_id": 2,
+    "category_id": 19,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 74,
+    "name": "Карт-ридер для телефону",
+    "description": "USB-C карт-ридер для microSD",
+    "price": 399.99,
+    "company_id": 9,
+    "category_id": 19,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 75,
+    "name": "Підставка для телефону",
+    "description": "Регульована підставка з алюмінію",
+    "price": 599.99,
+    "company_id": 1,
+    "category_id": 19,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 76,
+    "name": "Попсокет для телефону",
+    "description": "Клейка ручка для зручного утримання",
+    "price": 299.99,
+    "company_id": 7,
+    "category_id": 19,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 77,
+    "name": "Об'єктив для камери телефону",
+    "description": "Ширококутний об'єктив для смартфонів",
+    "price": 1999.99,
+    "company_id": 4,
+    "category_id": 19,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 78,
+    "name": "Стабілізатор для телефону",
+    "description": "Gimbal стабілізатор для відеозйомки",
+    "price": 4999.99,
+    "company_id": 8,
+    "category_id": 19,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 79,
+    "name": "Портативна колонка для телефону",
+    "description": "Міні колонка з Bluetooth",
+    "price": 1499.99,
+    "company_id": 6,
+    "category_id": 19,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 80,
+    "name": "Автомобільний кріплення для телефону",
+    "description": "Магнітне кріплення для автомобіля",
+    "price": 799.99,
+    "company_id": 10,
+    "category_id": 19,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 81,
+    "name": "Акумулятор для iPhone",
+    "description": "Оригінальний акумулятор для заміни",
+    "price": 2499.99,
+    "company_id": 3,
+    "category_id": 20,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 82,
+    "name": "Екран для Samsung Galaxy",
+    "description": "Оригінальний дисплей для заміни",
+    "price": 5999.99,
+    "company_id": 5,
+    "category_id": 20,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 83,
+    "name": "Камера для смартфона",
+    "description": "Модуль камери для ремонту",
+    "price": 3499.99,
+    "company_id": 2,
+    "category_id": 20,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 84,
+    "name": "Кнопка живлення для телефону",
+    "description": "Кнопка живлення з тактильним відгуком",
+    "price": 499.99,
+    "company_id": 9,
+    "category_id": 20,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 85,
+    "name": "Динамік для смартфона",
+    "description": "Внутрішній динамік для заміни",
+    "price": 899.99,
+    "company_id": 1,
+    "category_id": 20,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 86,
+    "name": "Мікрофон для телефону",
+    "description": "Внутрішній мікрофон для заміни",
+    "price": 699.99,
+    "company_id": 7,
+    "category_id": 20,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 87,
+    "name": "Вібромотор для смартфона",
+    "description": "Тактильний вібромотор для заміни",
+    "price": 599.99,
+    "company_id": 4,
+    "category_id": 20,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 88,
+    "name": "Антена для телефону",
+    "description": "Внутрішня антена для покращення сигналу",
+    "price": 799.99,
+    "company_id": 8,
+    "category_id": 20,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 89,
+    "name": "Роз'єм зарядки USB-C",
+    "description": "Роз'єм зарядки для заміни",
+    "price": 1299.99,
+    "company_id": 6,
+    "category_id": 20,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 90,
+    "name": "Материнська плата для смартфона",
+    "description": "Материнська плата для ремонту",
+    "price": 14999.99,
+    "company_id": 10,
+    "category_id": 20,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 91,
+    "name": "Panasonic KX-TG1611",
+    "description": "Бездротовий стаціонарний телефон з базовою станцією",
+    "price": 1999.99,
+    "company_id": 2,
+    "category_id": 21,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 92,
+    "name": "Gigaset A540",
+    "description": "Стаціонарний телефон з великим дисплеєм",
+    "price": 2499.99,
+    "company_id": 5,
+    "category_id": 21,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 93,
+    "name": "VTech CS6719-2",
+    "description": "Бездротовий телефон з двома трубками",
+    "price": 2999.99,
+    "company_id": 9,
+    "category_id": 21,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 94,
+    "name": "AT&T CL82207",
+    "description": "Стаціонарний телефон з відповідачем",
+    "price": 3499.99,
+    "company_id": 1,
+    "category_id": 21,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 95,
+    "name": "Motorola CD5011",
+    "description": "Бездротовий стаціонарний телефон",
+    "price": 1799.99,
+    "company_id": 7,
+    "category_id": 21,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 96,
+    "name": "Philips DECT",
+    "description": "Стаціонарний телефон з гарним звуком",
+    "price": 2199.99,
+    "company_id": 4,
+    "category_id": 21,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 97,
+    "name": "Yealink SIP-T21P",
+    "description": "IP телефон для офісу",
+    "price": 4999.99,
+    "company_id": 8,
+    "category_id": 21,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 98,
+    "name": "Grandstream GXP2135",
+    "description": "Бізнес IP телефон з кольоровим дисплеєм",
+    "price": 5999.99,
+    "company_id": 6,
+    "category_id": 21,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 99,
+    "name": "Cisco SPA514G",
+    "description": "Професійний IP телефон для бізнесу",
+    "price": 7999.99,
+    "company_id": 3,
+    "category_id": 21,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 100,
+    "name": "Polycom VVX 250",
+    "description": "Розумний бізнес телефон з сенсорним екраном",
+    "price": 8999.99,
+    "company_id": 10,
+    "category_id": 21,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 101,
+    "name": "Anker PowerCore 20000",
+    "description": "Потужний павербанк на 20000 мАг",
+    "price": 2499.99,
+    "company_id": 1,
+    "category_id": 23,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 102,
+    "name": "Xiaomi Mi Power Bank 3",
+    "description": "Швидка зарядка павербанк 20000 мАг",
+    "price": 1999.99,
+    "company_id": 7,
+    "category_id": 23,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 103,
+    "name": "Samsung Wireless Power Bank",
+    "description": "Бездротовий павербанк з швидкою зарядкою",
+    "price": 3499.99,
+    "company_id": 5,
+    "category_id": 23,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 104,
+    "name": "Belkin Boost Charge",
+    "description": "Компактний павербанк 10000 мАг",
+    "price": 1799.99,
+    "company_id": 2,
+    "category_id": 23,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 105,
+    "name": "RAVPower 26800",
+    "description": "Великий павербанк для подорожей",
+    "price": 2999.99,
+    "company_id": 9,
+    "category_id": 23,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 106,
+    "name": "Mophie Powerstation Plus",
+    "description": "Преміум павербанк з вбудованим кабелем",
+    "price": 4999.99,
+    "company_id": 4,
+    "category_id": 23,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 107,
+    "name": "AUKEY Power Bank 20000",
+    "description": "Швидка зарядка з USB-C та USB-A",
+    "price": 2299.99,
+    "company_id": 8,
+    "category_id": 23,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 108,
+    "name": "Zendure SuperTank Pro",
+    "description": "Потужний павербанк 26800 мАг з PD 100W",
+    "price": 8999.99,
+    "company_id": 6,
+    "category_id": 23,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 109,
+    "name": "Goal Zero Sherpa 100",
+    "description": "Преміум павербанк з бездротовою зарядкою",
+    "price": 12999.99,
+    "company_id": 3,
+    "category_id": 23,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 110,
+    "name": "Jackery PowerBar",
+    "description": "Компактний павербанк для щоденного використання",
+    "price": 1499.99,
+    "company_id": 10,
+    "category_id": 23,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 111,
+    "name": "Кабель для павербанку USB-C",
+    "description": "Швидка зарядка кабель для павербанків",
+    "price": 399.99,
+    "company_id": 2,
+    "category_id": 24,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 112,
+    "name": "Адаптер для павербанку",
+    "description": "Адаптер для підключення різних пристроїв",
+    "price": 299.99,
+    "company_id": 5,
+    "category_id": 24,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 113,
+    "name": "Чохол для павербанку",
+    "description": "Захисний чохол з неопрену",
+    "price": 499.99,
+    "company_id": 9,
+    "category_id": 24,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 114,
+    "name": "Ремінець для павербанку",
+    "description": "Зручний ремінець для переносу",
+    "price": 199.99,
+    "company_id": 1,
+    "category_id": 24,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 115,
+    "name": "Світлодіодний індикатор для павербанку",
+    "description": "Додатковий індикатор заряду",
+    "price": 149.99,
+    "company_id": 7,
+    "category_id": 24,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 116,
+    "name": "Розгалужувач USB для павербанку",
+    "description": "Розгалужувач для зарядки кількох пристроїв",
+    "price": 599.99,
+    "company_id": 4,
+    "category_id": 24,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 117,
+    "name": "Магнітне кріплення для павербанку",
+    "description": "Магнітне кріплення для автомобіля",
+    "price": 349.99,
+    "company_id": 8,
+    "category_id": 24,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 118,
+    "name": "Сонячна панель для павербанку",
+    "description": "Портативна сонячна панель для зарядки",
+    "price": 2999.99,
+    "company_id": 6,
+    "category_id": 24,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 119,
+    "name": "Термозахисний чохол для павербанку",
+    "description": "Захисний чохол від перегріву",
+    "price": 799.99,
+    "company_id": 3,
+    "category_id": 24,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 120,
+    "name": "Кріплення на велосипед для павербанку",
+    "description": "Кріплення для велосипеда",
+    "price": 899.99,
+    "company_id": 10,
+    "category_id": 24,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 121,
+    "name": "Anker 7-Port USB зарядна станція",
+    "description": "Зарядна станція для кількох пристроїв одночасно",
+    "price": 2999.99,
+    "company_id": 1,
+    "category_id": 25,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 122,
+    "name": "Belkin Boost Charge Pro",
+    "description": "Преміум зарядна станція з MagSafe",
+    "price": 5999.99,
+    "company_id": 2,
+    "category_id": 25,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 123,
+    "name": "Satechi 108W зарядна станція",
+    "description": "Потужна зарядна станція для ноутбуків та телефонів",
+    "price": 4999.99,
+    "company_id": 5,
+    "category_id": 25,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 124,
+    "name": "Native Union Dock Stand",
+    "description": "Елегантна зарядна станція з підставкою",
+    "price": 3499.99,
+    "company_id": 9,
+    "category_id": 25,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 125,
+    "name": "Nomad Base Station Pro",
+    "description": "Бездротова зарядна станція для кількох пристроїв",
+    "price": 8999.99,
+    "company_id": 7,
+    "category_id": 25,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 126,
+    "name": "Mophie 3-in-1 зарядна станція",
+    "description": "Зарядка для iPhone, AirPods та Apple Watch",
+    "price": 7999.99,
+    "company_id": 4,
+    "category_id": 25,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 127,
+    "name": "Samsung Wireless Charger Stand",
+    "description": "Бездротова зарядна станція з підставкою",
+    "price": 2499.99,
+    "company_id": 8,
+    "category_id": 25,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 128,
+    "name": "RAVPower зарядна станція 200W",
+    "description": "Потужна зарядна станція для всіх пристроїв",
+    "price": 6999.99,
+    "company_id": 6,
+    "category_id": 25,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 129,
+    "name": "Zendure SuperPort 4",
+    "description": "Компактна зарядна станція з 4 портами",
+    "price": 3999.99,
+    "company_id": 3,
+    "category_id": 25,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  },
+  {
+    "id": 130,
+    "name": "UGREEN Nexode 200W зарядна станція",
+    "description": "Потужна зарядна станція для MacBook та інших пристроїв",
+    "price": 8999.99,
+    "company_id": 10,
+    "category_id": 25,
+    "created_at": "2025-03-25T00:00:00Z",
+    "updated_at": "2025-03-25T00:00:00Z"
+  }
+]
+

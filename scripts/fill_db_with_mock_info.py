@@ -32,7 +32,7 @@ product_table = Table("product", metadata, autoload_with=engine)
 
 
 def insert_categories(connection) -> None:
-    with open(Path(__file__).parent / "categories-mocks.json") as f:
+    with open(Path(__file__).parent / "categories-mocks-new.json") as f:
         categories = json.load(f)
 
     connection.execute(sa_text("TRUNCATE category CASCADE"))
@@ -72,7 +72,7 @@ def insert_payments(connection) -> None:
 
 
 def insert_products(connection) -> None:
-    with open(Path(__file__).parent / "products-mocks.json") as f:
+    with open(Path(__file__).parent / "products-mocks-new.json") as f:
         products = json.load(f)
 
     connection.execute(sa_text("TRUNCATE product CASCADE"))

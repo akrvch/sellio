@@ -5,6 +5,7 @@ from fastapi import FastAPI
 
 from sellio.api import router as api_router
 from sellio.graph.endpoint import router as graph_router
+from sellio.services.categories import init_cached_categories
 from sellio.services.db import init_db
 from sellio.services.db import main_db
 from sellio.services.hash import init_hasher
@@ -17,6 +18,8 @@ async def lifespan(_: FastAPI) -> AsyncGenerator[None, None]:
     init_config()
     init_db(config)
     init_hasher()
+    await init_cached_categories()
+
     yield
     if main_db._engine is not None:
         await main_db.close()

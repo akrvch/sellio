@@ -12,12 +12,10 @@ from hiku.types import Sequence
 from hiku.types import String
 from hiku.types import TypeRef
 
-from sellio.db_graph.resolvers.category import resolve_child_category_ids
 from sellio.db_graph.resolvers.company import link_company_delivery_options
 from sellio.db_graph.resolvers.company import link_company_payment_options
 from sellio.graph import direct_link
 from sellio.graph import maybe_direct_link
-from sellio.models import Category
 from sellio.models import Company
 from sellio.models import DeliveryOption
 from sellio.models import Order
@@ -27,7 +25,6 @@ from sellio.models import ProductDiscount
 
 product_query = FieldsQuery("db.session_async", Product.__table__)
 company_query = FieldsQuery("db.session_async", Company.__table__)
-category_query = FieldsQuery("db.session_async", Category.__table__)
 delivery_option_query = FieldsQuery(
     "db.session_async", DeliveryOption.__table__
 )
@@ -91,20 +88,6 @@ _GRAPH = Graph(
                     Sequence[TypeRef["delivery_option"]],
                     link_company_delivery_options,
                     requires="id",
-                ),
-            ],
-        ),
-        Node(
-            "category",
-            [
-                Field("id", Integer, category_query),
-                Field("name", String, category_query),
-                Field("description", String, category_query),
-                Field("is_adult", Boolean, category_query),
-                Field(
-                    "child_category_ids",
-                    Sequence[Integer],
-                    resolve_child_category_ids,
                 ),
             ],
         ),
