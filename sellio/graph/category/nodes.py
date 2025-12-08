@@ -16,6 +16,7 @@ CategoryNode = Node(
     [
         Field("id", Integer, map_categories),
         Field("name", String, map_categories),
+        Field("alias", String, map_categories),
         Field("isAdult", Boolean, map_categories),
         Field("description", String, map_categories),
         Field("_path", Sequence[Any], map_categories),

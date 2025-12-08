@@ -9,8 +9,12 @@ from sellio.services.categories import cached_categories
 def map_categories(
     fields: list[Field], category_ids: list[int]
 ) -> list[list[CachedCategory]]:
+    print(category_ids)
+    print("SHET")
     def get_field(category_id: int, field_name: str) -> Any:
-        category = cached_categories.get_category(category_id)
+        category = cached_categories.get_category_by_id(category_id)
+        print(category)
+        print("FUCK")
         if not category:
             raise ValueError(f"Category with id {category_id} not found")
         match field_name:
@@ -18,6 +22,8 @@ def map_categories(
                 return category.id
             case "name":
                 return category.name
+            case "alias":
+                return category.alias
             case "description":
                 return category.description
             case "is_adult":
