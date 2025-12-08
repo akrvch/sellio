@@ -105,5 +105,6 @@ def calculate_discounted_price(
     )
 
 
+@define(Integer, String)
 def get_product_url(product_id: int, product_name: str) -> str:
     return url.product(product_id, product_name, absolute=True)
