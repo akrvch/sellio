@@ -1,6 +1,7 @@
 import inspect
 import typing as t
 
+from hiku.enum import Enum
 from hiku.executors.asyncio import AsyncIOExecutor
 from hiku.extensions.context import CustomContext
 from hiku.graph import Graph
@@ -12,6 +13,10 @@ from sellio.graph.category.nodes import CategoryNode
 from sellio.graph.company.nodes import CompanyNode
 from sellio.graph.context import get_graph_context
 from sellio.graph.delivery_option.nodes import DeliveryOptionNode
+from sellio.graph.enums import SortOrder
+from sellio.graph.listing_page.nodes import ListingPageNode
+from sellio.graph.listings.category.links import CategoryListingLink
+from sellio.graph.listings.category.nodes import CategoryListingNode
 from sellio.graph.menu.links import MenuLink
 from sellio.graph.payment_option.nodes import PaymentOptionNode
 from sellio.graph.product.links import ProductListLink
@@ -24,8 +29,11 @@ GRAPH = Graph(
         PaymentOptionNode,
         ProductNode,
         CategoryNode,
-        Root([ProductListLink, MenuLink, CategoryLink]),
-    ]
+        ListingPageNode,
+        CategoryListingNode,
+        Root([ProductListLink, MenuLink, CategoryLink, CategoryListingLink]),
+    ],
+    enums=[Enum.from_builtin(SortOrder)],
 )
 
 

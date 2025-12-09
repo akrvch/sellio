@@ -10,17 +10,20 @@ from hiku.types import TypeRef
 
 from sellio.db_graph import product_sg
 from sellio.graph import direct_link
-from sellio.graph.product.defs import calculate_discounted_price, get_product_url
+from sellio.graph.product.defs import calculate_discounted_price
 from sellio.graph.product.defs import get_discount_percent
 from sellio.graph.product.defs import get_product_delivery_options_contexts
 from sellio.graph.product.defs import get_product_payment_options_contexts
+from sellio.graph.product.defs import get_product_url
 
 ProductNode = Node(
     "Product",
     [
         Field("id", Integer, product_sg),
         Field("name", String, product_sg.c(S.this.name)),
-        Field("url", String, product_sg.c(get_product_url(S.this.id, S.this.name))),
+        Field(
+            "url", String, product_sg.c(get_product_url(S.this.id, S.this.name))
+        ),
         Field("description", String, product_sg.c(S.this.description)),
         Field("price", String, product_sg.c(S.this.price)),
         Field("categoryId", String, product_sg.c(S.this.category_id)),
