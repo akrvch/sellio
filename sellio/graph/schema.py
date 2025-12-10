@@ -8,6 +8,14 @@ from hiku.graph import Graph
 from hiku.graph import Root
 from hiku.schema import Schema
 
+from sellio.graph.auth.links import CompleteProfileLink
+from sellio.graph.auth.links import LogoutLink
+from sellio.graph.auth.links import RequestAuthCodeLink
+from sellio.graph.auth.links import VerifyAuthCodeLink
+from sellio.graph.auth.nodes import CompleteProfileNode
+from sellio.graph.auth.nodes import LogoutNode
+from sellio.graph.auth.nodes import RequestAuthCodeNode
+from sellio.graph.auth.nodes import VerifyAuthCodeNode
 from sellio.graph.category.links import CategoryLink
 from sellio.graph.category.nodes import CategoryNode
 from sellio.graph.company.nodes import CompanyNode
@@ -20,7 +28,10 @@ from sellio.graph.listings.category.nodes import CategoryListingNode
 from sellio.graph.menu.links import MenuLink
 from sellio.graph.payment_option.nodes import PaymentOptionNode
 from sellio.graph.product.links import ProductListLink
+from sellio.graph.product.links import ProductViewLink
 from sellio.graph.product.nodes import ProductNode
+from sellio.graph.user.links import CurrentUserLink
+from sellio.graph.user.nodes import UserNode
 
 GRAPH = Graph(
     items=[
@@ -31,7 +42,25 @@ GRAPH = Graph(
         CategoryNode,
         ListingPageNode,
         CategoryListingNode,
-        Root([ProductListLink, MenuLink, CategoryLink, CategoryListingLink]),
+        UserNode,
+        RequestAuthCodeNode,
+        VerifyAuthCodeNode,
+        CompleteProfileNode,
+        LogoutNode,
+        Root(
+            [
+                ProductListLink,
+                ProductViewLink,
+                MenuLink,
+                CategoryLink,
+                CategoryListingLink,
+                CurrentUserLink,
+                RequestAuthCodeLink,
+                VerifyAuthCodeLink,
+                CompleteProfileLink,
+                LogoutLink,
+            ]
+        ),
     ],
     enums=[Enum.from_builtin(SortOrder)],
 )

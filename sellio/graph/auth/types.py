@@ -1,0 +1,9 @@
+from enum import Enum
+
+
+class AuthStatus(str, Enum):
+    CODE_SENT = "CODE_SENT"
+    SUCCESS = "SUCCESS"
+    PROFILE_INFO_REQUIRED = "PROFILE_INFO_REQUIRED"
+    INVALID_CODE = "INVALID_CODE"
+    EXPIRED_CODE = "EXPIRED_CODE"

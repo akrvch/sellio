@@ -6,7 +6,9 @@ from hiku.types import Integer
 from hiku.types import Optional
 from hiku.types import TypeRef
 
-from sellio.graph import UniversalMapper, direct_link, maybe_direct_link
+from sellio.graph import UniversalMapper
+from sellio.graph import direct_link
+from sellio.graph import maybe_direct_link
 
 category_listing_mapper = UniversalMapper("CategoryListing")
 

@@ -1,4 +1,5 @@
-from hiku.graph import Field, Link
+from hiku.graph import Field
+from hiku.graph import Link
 from hiku.graph import Node
 from hiku.types import Integer
 from hiku.types import Sequence

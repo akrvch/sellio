@@ -6,6 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from sellio.api import router as api_router
 from sellio.graph.endpoint import router as graph_router
+from sellio.middleware.request_context import RequestContextMiddleware
 from sellio.services.categories import init_cached_categories
 from sellio.services.db import init_db
 from sellio.services.db import main_db
@@ -37,6 +38,9 @@ def make_app() -> FastAPI:
         allow_methods=["*"],
         allow_headers=["*"],
     )
+    # Add request context middleware for global access to request/response
+    app.add_middleware(RequestContextMiddleware)
+
     app.include_router(graph_router)
     app.include_router(api_router)
     return app

@@ -2,6 +2,7 @@ from sqlalchemy.orm import declarative_base
 
 Base = declarative_base()
 
+from sellio.models.auth_session import AuthSession
 from sellio.models.category import Category
 from sellio.models.company import Company
 from sellio.models.delivery_option import DeliveryOption

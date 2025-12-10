@@ -6,8 +6,8 @@ from hiku.graph import NothingType
 from sqlalchemy import select
 
 from sellio.graph import TGraphContext
-from sellio.graph.listings.category.types import CategoryListingContext
 from sellio.graph.listing_page.types import ListingPageContext
+from sellio.graph.listings.category.types import CategoryListingContext
 from sellio.graph.utils import product_sort_order_to_sqlalchemy
 from sellio.models.product import Product
 from sellio.services.categories import cached_categories

@@ -13,17 +13,30 @@ class User(Base):
     id: Mapped[int] = mapped_column(
         primary_key=True, autoincrement=True, index=True
     )
-    first_name: Mapped[str] = mapped_column(String(length=50))
-    second_name: Mapped[str] = mapped_column(String(length=50))
-    last_name: Mapped[str] = mapped_column(String(length=50))
-    email: Mapped[str] = mapped_column(
-        String(length=120), index=True, unique=True
-    )
     phone: Mapped[str] = mapped_column(
         String(length=20), index=True, unique=True
     )
-    hashed_password: Mapped[str] = mapped_column(String(length=200))
+    first_name: Mapped[str | None] = mapped_column(
+        String(length=50), nullable=True
+    )
+    second_name: Mapped[str | None] = mapped_column(
+        String(length=50), nullable=True
+    )
+    last_name: Mapped[str | None] = mapped_column(
+        String(length=50), nullable=True
+    )
+    email: Mapped[str | None] = mapped_column(
+        String(length=120), index=True, unique=True, nullable=True
+    )
+    hashed_password: Mapped[str | None] = mapped_column(
+        String(length=200), nullable=True
+    )
     is_superuser: Mapped[bool] = mapped_column(Boolean, default=False)
+
+    @property
+    def is_profile_completed(self) -> bool:
+        """Check if user profile is completed."""
+        return bool(self.first_name and self.second_name and self.last_name)
 
     @staticmethod
     def generate_password_hash(password: str) -> str:

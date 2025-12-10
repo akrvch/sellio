@@ -38,10 +38,16 @@ class GraphErrorResponse(TypedDict):
 
 
 class GraphOkResponse(TypedDict):
-    data: dict[str, Any]
+    data: dict[str, Any] | None
 
 
-GraphResponse = GraphOkResponse | GraphErrorResponse
+class GraphOkResponseWithValidationErrors(GraphOkResponse):
+    errors: list[dict[str, Any]] | None
+
+
+GraphResponse = (
+    GraphOkResponse | GraphOkResponseWithValidationErrors | GraphErrorResponse
+)
 
 SingleOrBatchedGraphResponse = GraphResponse | list[GraphResponse]
 
@@ -77,7 +83,7 @@ class GraphqlEndpoint(AsyncGraphQLEndpoint):
             response = await super(AsyncGraphQLEndpoint, self).dispatch(
                 graph_request, context
             )
-            return GraphOkResponse(data=response.get("data"))
+            return response
         except Exception as e:
             return self._error_response(
                 exception=e,
