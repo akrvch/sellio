@@ -1,10 +1,10 @@
 from hiku.engine import pass_context
 
 from sellio.graph import TGraphContext
-from sellio.graph.auth.responses import CompleteProfileResponse
-from sellio.graph.auth.responses import LogoutResponse
-from sellio.graph.auth.responses import RequestAuthCodeResponse
-from sellio.graph.auth.responses import VerifyAuthCodeResponse
+from sellio.graph.auth.types import CompleteProfileResponse
+from sellio.graph.auth.types import LogoutResponse
+from sellio.graph.auth.types import RequestAuthCodeResponse
+from sellio.graph.auth.types import VerifyAuthCodeResponse
 from sellio.services.auth import complete_user_profile
 from sellio.services.auth import create_auth_session
 from sellio.services.auth import verify_otp_code

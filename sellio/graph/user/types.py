@@ -13,3 +13,4 @@ class UserResponse:
     email: str | None
     is_profile_completed: bool
     is_superuser: bool
+

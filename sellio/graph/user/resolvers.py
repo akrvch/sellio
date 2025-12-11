@@ -1,7 +1,7 @@
 from hiku.graph import Nothing
 from hiku.graph import NothingType
 
-from sellio.graph.user.responses import UserResponse
+from sellio.graph.user.types import UserResponse
 from sellio.services.session import get_current_user
 
 
