@@ -10,6 +10,12 @@ class AuthStatus(str, Enum):
     EXPIRED_CODE = "EXPIRED_CODE"
 
 
+class UpdateProfileErrorCode(str, Enum):
+    AUTH_REQUIRED = "AUTH_REQUIRED"
+    MISSING_REQUIRED_FIELDS = "MISSING_REQUIRED_FIELDS"
+    UPDATE_FAILED = "UPDATE_FAILED"
+
+
 @dataclass(frozen=True)
 class RequestAuthCodeResponse:
     status: str
@@ -36,3 +42,12 @@ class CompleteProfileResponse:
 class LogoutResponse:
     status: str
     message: str
+
+
+@dataclass(frozen=True)
+class UpdateProfileResponse:
+    status: str
+    message: str
+    user_id: int | None
+    error_code: str | None
+    missing_fields: tuple[str, ...] | None

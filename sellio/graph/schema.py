@@ -11,11 +11,14 @@ from hiku.schema import Schema
 from sellio.graph.auth.links import CompleteProfileLink
 from sellio.graph.auth.links import LogoutLink
 from sellio.graph.auth.links import RequestAuthCodeLink
+from sellio.graph.auth.links import UpdateProfileLink
 from sellio.graph.auth.links import VerifyAuthCodeLink
 from sellio.graph.auth.nodes import CompleteProfileNode
 from sellio.graph.auth.nodes import LogoutNode
 from sellio.graph.auth.nodes import RequestAuthCodeNode
+from sellio.graph.auth.nodes import UpdateProfileNode
 from sellio.graph.auth.nodes import VerifyAuthCodeNode
+from sellio.graph.auth.types import UpdateProfileErrorCode
 from sellio.graph.category.links import CategoryLink
 from sellio.graph.category.nodes import CategoryNode
 from sellio.graph.company.nodes import CompanyNode
@@ -46,6 +49,7 @@ GRAPH = Graph(
         RequestAuthCodeNode,
         VerifyAuthCodeNode,
         CompleteProfileNode,
+        UpdateProfileNode,
         LogoutNode,
         Root(
             [
@@ -58,11 +62,12 @@ GRAPH = Graph(
                 RequestAuthCodeLink,
                 VerifyAuthCodeLink,
                 CompleteProfileLink,
+                UpdateProfileLink,
                 LogoutLink,
             ]
         ),
     ],
-    enums=[Enum.from_builtin(SortOrder)],
+    enums=[Enum.from_builtin(SortOrder), Enum.from_builtin(UpdateProfileErrorCode)],
 )
 
 

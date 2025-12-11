@@ -7,6 +7,7 @@ from hiku.types import TypeRef
 from sellio.graph.auth.resolvers import mutation_complete_profile
 from sellio.graph.auth.resolvers import mutation_logout
 from sellio.graph.auth.resolvers import mutation_request_auth_code
+from sellio.graph.auth.resolvers import mutation_update_profile
 from sellio.graph.auth.resolvers import mutation_verify_auth_code
 
 RequestAuthCodeLink = Link(
@@ -48,5 +49,18 @@ LogoutLink = Link(
     TypeRef["LogoutResponse"],
     mutation_logout,
     options=[],
+    requires=None,
+)
+
+UpdateProfileLink = Link(
+    "updateProfile",
+    TypeRef["UpdateProfileResponse"],
+    mutation_update_profile,
+    options=[
+        Option("firstName", Optional[String], default=None),
+        Option("secondName", Optional[String], default=None),
+        Option("lastName", Optional[String], default=None),
+        Option("email", Optional[String], default=None),
+    ],
     requires=None,
 )

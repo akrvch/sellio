@@ -1,3 +1,5 @@
+domain = 'http://sellio.local'
+
 [main_db]
 db = 'sellio'
 host = 'postgres'

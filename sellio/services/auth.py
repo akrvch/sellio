@@ -147,3 +147,34 @@ async def complete_user_profile(
     await session.refresh(user)
 
     return user
+
+
+async def update_user_profile(
+    session: AsyncSession,
+    user_id: int,
+    first_name: str | None = None,
+    second_name: str | None = None,
+    last_name: str | None = None,
+    email: str | None = None,
+) -> User | None:
+    """Update user profile information (partial update)."""
+    result = await session.execute(select(User).where(User.id == user_id))
+    user = result.scalar_one_or_none()
+
+    if not user:
+        return None
+
+    # Update only provided fields
+    if first_name is not None:
+        user.first_name = first_name
+    if second_name is not None:
+        user.second_name = second_name
+    if last_name is not None:
+        user.last_name = last_name
+    if email is not None:
+        user.email = email
+
+    await session.commit()
+    await session.refresh(user)
+
+    return user

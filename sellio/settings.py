@@ -41,6 +41,7 @@ class DbConfig(BaseModel):
 
 class Config(BaseSettings):
     env: str
+    domain: str
     main_db: DbConfig
 
     @classmethod

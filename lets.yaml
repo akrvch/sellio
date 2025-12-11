@@ -32,7 +32,7 @@ commands:
       fi;
 
   build-postgres:
-    description: Build main app image
+    description: Build postgres image
     options: |
       Usage:
         lets build-postgres [--no-cache]
@@ -45,11 +45,16 @@ commands:
         lets build postgres
       fi;
 
+  build-nginx:
+    description: Pull nginx image
+    cmd: docker compose pull nginx
+
   run:
     description: Run sellio app with required services
     depends:
       - build-sellio
       - build-postgres
+      - build-nginx
     options: |
       Usage:
        lets run [--environ=<env>] [--watch]
@@ -58,7 +63,13 @@ commands:
         --watch, -w                         Run with watchfiles
     cmd: |
       if [ -n "$LETSOPT_WATCH" ]; then
-        docker compose up sellio postgres --watch
+        docker compose up sellio postgres nginx --watch
       else
-        docker compose up sellio postgres
+        docker compose up sellio postgres nginx
       fi;
+
+  run-nginx:
+    description: Run nginx proxy server
+    depends:
+      - build-nginx
+    cmd: docker compose up nginx

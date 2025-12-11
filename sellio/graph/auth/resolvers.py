@@ -4,9 +4,12 @@ from sellio.graph import TGraphContext
 from sellio.graph.auth.types import CompleteProfileResponse
 from sellio.graph.auth.types import LogoutResponse
 from sellio.graph.auth.types import RequestAuthCodeResponse
+from sellio.graph.auth.types import UpdateProfileErrorCode
+from sellio.graph.auth.types import UpdateProfileResponse
 from sellio.graph.auth.types import VerifyAuthCodeResponse
 from sellio.services.auth import complete_user_profile
 from sellio.services.auth import create_auth_session
+from sellio.services.auth import update_user_profile
 from sellio.services.auth import verify_otp_code
 from sellio.services.session import get_current_user
 from sellio.services.session import login
@@ -115,10 +118,7 @@ async def mutation_complete_profile(
         )
 
 
-@pass_context
-async def mutation_logout(
-    ctx: TGraphContext, opts: dict[str, str]
-) -> LogoutResponse:
+async def mutation_logout() -> LogoutResponse:
     """Logout mutation."""
     await logout()
 
@@ -126,3 +126,70 @@ async def mutation_logout(
         status="SUCCESS",
         message="Successfully logged out",
     )
+
+
+@pass_context
+async def mutation_update_profile(
+    ctx: TGraphContext, opts: dict[str, str]
+) -> UpdateProfileResponse:
+    """Update user profile mutation."""
+    # Get current user from cookie
+    user = await get_current_user()
+
+    if not user:
+        return UpdateProfileResponse(
+            status="ERROR",
+            message="Необхідна авторизація",
+            user_id=None,
+            error_code=UpdateProfileErrorCode.AUTH_REQUIRED,
+            missing_fields=None,
+        )
+
+    first_name = opts.get("firstName")
+    second_name = opts.get("secondName")
+    last_name = opts.get("lastName")
+    email = opts.get("email")
+
+    # Validate that first_name and last_name cannot be empty strings
+    missing_fields = []
+    if first_name is not None and not first_name.strip():
+        missing_fields.append("firstName")
+    if last_name is not None and not last_name.strip():
+        missing_fields.append("lastName")
+
+    if missing_fields:
+        return UpdateProfileResponse(
+            status="ERROR",
+            message="Обов'язкові поля не можуть бути пустими",
+            user_id=None,
+            error_code=UpdateProfileErrorCode.MISSING_REQUIRED_FIELDS,
+            missing_fields=tuple(missing_fields),
+        )
+
+    async with ctx["db.session_async"].session() as session:
+        # Update profile
+        updated_user = await update_user_profile(
+            session,
+            user.id,
+            first_name=first_name,
+            second_name=second_name,
+            last_name=last_name,
+            email=email,
+        )
+
+        if not updated_user:
+            return UpdateProfileResponse(
+                status="ERROR",
+                message="Не вдалося оновити профіль",
+                user_id=None,
+                error_code=UpdateProfileErrorCode.UPDATE_FAILED,
+                missing_fields=None,
+            )
+
+        return UpdateProfileResponse(
+            status="SUCCESS",
+            message="Профіль успішно оновлено",
+            user_id=updated_user.id,
+            error_code=None,
+            missing_fields=None,
+        )

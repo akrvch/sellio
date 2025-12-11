@@ -33,18 +33,18 @@ uv run scripts/fill_db_with_mock_info.py
 ```
 
 Далі можна перейти до запуску проекту:
+
 ### За допомогою lets-cli
 
+**Базовий запуск (тільки backend):**
 ```sh
 lets run
 ```
 ### Або за допомогою docker compose
 ```sh
-docker compose up postgres sellio
+docker compose up postgres sellio nginx
 ```
-Тепер бекенд буде доступний на http://localhost:8080/
 
-GraphQL playground http://localhost:8080/graphqil
 
 Приклад запиту на graphql:
 ```
