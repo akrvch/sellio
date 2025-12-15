@@ -36,7 +36,7 @@ class User(Base):
     @property
     def is_profile_completed(self) -> bool:
         """Check if user profile is completed."""
-        return bool(self.first_name and self.second_name and self.last_name)
+        return bool(self.first_name and self.last_name)
 
     @staticmethod
     def generate_password_hash(password: str) -> str:

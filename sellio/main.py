@@ -7,6 +7,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from sellio.api import router as api_router
 from sellio.graph.endpoint import router as graph_router
 from sellio.middleware.request_context import RequestContextMiddleware
+from sellio.services.cart import cart_service
+from sellio.services.cart import init_cart_service
 from sellio.services.categories import init_cached_categories
 from sellio.services.db import init_db
 from sellio.services.db import main_db
@@ -20,11 +22,13 @@ async def lifespan(_: FastAPI) -> AsyncGenerator[None, None]:
     init_config()
     init_db(config)
     init_hasher()
+    init_cart_service(config)
     await init_cached_categories()
 
     yield
     if main_db._engine is not None:
         await main_db.close()
+    await cart_service.close()
 
 
 def make_app() -> FastAPI:

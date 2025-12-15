@@ -1,4 +1,5 @@
 domain = 'http://sellio.local'
+cart_service_url = 'http://sellio-cart:8080'
 
 [main_db]
 db = 'sellio'

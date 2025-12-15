@@ -43,6 +43,7 @@ class Config(BaseSettings):
     env: str
     domain: str
     main_db: DbConfig
+    cart_service_url: str
 
     @classmethod
     def load(cls) -> "Config":

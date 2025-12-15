@@ -80,3 +80,94 @@ query GetProducts($productIds: [Int!]!) {
 }
 ```
 
+## Cart Service Integration
+
+Проект інтегрований з окремим мікросервісом кошика (sellio-cart). Всі запити до кошика проксуються через GraphQL API.
+
+### Налаштування
+
+Переконайтеся, що в `config/dev.toml` вказано URL сервісу кошика:
+
+```toml
+cart_service_url = 'http://sellio-cart:8080'
+```
+
+### Приклад роботи з кошиком
+
+Отримати кошики поточного користувача:
+
+```graphql
+query {
+  userCarts {
+    id
+    companyId
+    items {
+      productId
+      name
+      quantity
+      price
+      product {
+        name
+        discountedPrice
+      }
+    }
+    totalAmount
+  }
+}
+```
+
+Додати товар у кошик (дані про товар беруться з бази автоматично, кошик створюється при потребі):
+
+```graphql
+mutation {
+  addItemToCart(
+    companyId: 100
+    productId: 501
+  ) {
+    success
+    message
+    cart {
+      id
+      items {
+        productId
+        quantity
+      }
+      totalAmount
+    }
+  }
+}
+```
+
+Оновити кількість товару:
+
+```graphql
+mutation {
+  updateCartItemQuantity(
+    companyId: 100
+    productId: 501
+    quantity: 5
+  ) {
+    success
+    message
+  }
+}
+```
+
+Видалити товар з кошика:
+
+```graphql
+mutation {
+  removeItemFromCart(
+    companyId: 100
+    productId: 501
+  ) {
+    success
+    message
+  }
+}
+```
+
+**Документація:**
+- Короткий огляд: [sellio/graph/cart/README.md](sellio/graph/cart/README.md)
+- Детальна документація з прикладами: [sellio/graph/cart/CART_API.md](sellio/graph/cart/CART_API.md)
+

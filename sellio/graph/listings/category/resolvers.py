@@ -26,7 +26,6 @@ async def resolve_category_listing(
         return Nothing
 
     if not (category := cached_categories.get_category_by_alias(alias)):
-        print("FUCKING SHET")
         return Nothing
 
     is_last_level_category = not cached_categories.get_children(category.id)
@@ -44,7 +43,7 @@ async def resolve_category_listing(
             result = await session.execute(query)
             product_ids = result.scalars().all()
 
-    a = CategoryListingContext(
+    return CategoryListingContext(
         category_id=category.id,
         page=ListingPageContext(
             product_ids=tuple(product_ids),
@@ -52,7 +51,3 @@ async def resolve_category_listing(
         if product_ids
         else None,
     )
-    print(a)
-    print("FUCK AAAAA")
-
-    return a

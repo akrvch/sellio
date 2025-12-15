@@ -1,10 +1,29 @@
+from datetime import datetime
+from enum import Enum
+from typing import NamedTuple
+
+from sqlalchemy import DateTime
 from sqlalchemy import ForeignKey
 from sqlalchemy import Integer
 from sqlalchemy import String
+from sqlalchemy import Text
+from sqlalchemy import func
 from sqlalchemy.orm import Mapped
 from sqlalchemy.orm import mapped_column
 
+from sellio.lib.enum import SqlAlEnumDecorator
 from sellio.models import Base
+
+
+class OrderStatusEnumValue(NamedTuple):
+    title: str
+
+
+class OrderStatus(Enum):
+    new = OrderStatusEnumValue(title="Нове")
+    in_progress = OrderStatusEnumValue(title="Прийнято")
+    completed = OrderStatusEnumValue(title="Виконано")
+    cancelled = OrderStatusEnumValue(title="Скасовано")
 
 
 class Order(Base):
@@ -53,4 +72,12 @@ class Order(Base):
         index=False,
         unique=False,
         nullable=False,
+    )
+    status: Mapped[OrderStatus] = mapped_column(SqlAlEnumDecorator(OrderStatus))
+    comment: Mapped[str | None] = mapped_column(Text, nullable=True)
+    date_created: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), server_default=func.now()
+    )
+    date_updated: Mapped[datetime | None] = mapped_column(
+        DateTime(timezone=True), onupdate=func.now(), nullable=True
     )

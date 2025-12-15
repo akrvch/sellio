@@ -1,6 +1,7 @@
 from hiku.graph import Field
 from hiku.graph import Node
-from hiku.types import Boolean, EnumRef
+from hiku.types import Boolean
+from hiku.types import EnumRef
 from hiku.types import Integer
 from hiku.types import Optional
 from hiku.types import Sequence
@@ -60,7 +61,13 @@ UpdateProfileNode = Node(
         Field("status", String, update_profile_mapper),
         Field("message", String, update_profile_mapper),
         Field("userId", Optional[Integer], update_profile_mapper),
-        Field("errorCode", Optional[EnumRef["UpdateProfileErrorCode"]], update_profile_mapper),
-        Field("missingFields", Optional[Sequence[String]], update_profile_mapper),
+        Field(
+            "errorCode",
+            Optional[EnumRef["UpdateProfileErrorCode"]],
+            update_profile_mapper,
+        ),
+        Field(
+            "missingFields", Optional[Sequence[String]], update_profile_mapper
+        ),
     ],
 )

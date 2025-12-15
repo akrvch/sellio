@@ -96,7 +96,6 @@ async def get_current_user() -> User | None:
         User instance if authenticated, None otherwise.
     """
     session_token = get_cookie(AUTH_COOKIE_NAME)
-    print(f"session_token: {session_token}")
     if not session_token:
         return None
 
@@ -111,11 +110,9 @@ async def get_current_user() -> User | None:
         auth_session = result.scalar_one_or_none()
 
         if not auth_session or auth_session.is_expired():
-            print(f"auth_session is expired: {auth_session}")
             return None
 
         if auth_session.user_id is None:
-            print(f"auth_session.user_id is None: {auth_session.user_id}")
             return None
 
         # Get user
@@ -123,5 +120,4 @@ async def get_current_user() -> User | None:
             select(User).where(User.id == auth_session.user_id)
         )
         user = user_result.scalar_one_or_none()
-        print(f"user: {user}")
         return user

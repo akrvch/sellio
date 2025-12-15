@@ -14,26 +14,26 @@ from hiku.types import TypeRef
 
 from sellio.db_graph.resolvers.company import link_company_delivery_options
 from sellio.db_graph.resolvers.company import link_company_payment_options
+from sellio.db_graph.resolvers.delivery_info import resolve_order_delivery_info
 from sellio.graph import direct_link
 from sellio.graph import maybe_direct_link
 from sellio.models import Company
+from sellio.models import DeliveryInfo
 from sellio.models import DeliveryOption
 from sellio.models import Order
 from sellio.models import PaymentOption
 from sellio.models import Product
 from sellio.models import ProductDiscount
 
-product_query = FieldsQuery("db.session_async", Product.__table__)
-company_query = FieldsQuery("db.session_async", Company.__table__)
-delivery_option_query = FieldsQuery(
-    "db.session_async", DeliveryOption.__table__
-)
-payment_option_query = FieldsQuery("db.session_async", PaymentOption.__table__)
-order_query = FieldsQuery("db.session_async", Order.__table__)
-product_discount_query = FieldsQuery(
-    "db.session_async", ProductDiscount.__table__
-)
+SA_ENGINE_KEY = "db.session_async"
 
+product_query = FieldsQuery(SA_ENGINE_KEY, Product.__table__)
+company_query = FieldsQuery(SA_ENGINE_KEY, Company.__table__)
+delivery_option_query = FieldsQuery(SA_ENGINE_KEY, DeliveryOption.__table__)
+delivery_info_query = FieldsQuery(SA_ENGINE_KEY, DeliveryInfo.__table__)
+payment_option_query = FieldsQuery(SA_ENGINE_KEY, PaymentOption.__table__)
+order_query = FieldsQuery(SA_ENGINE_KEY, Order.__table__)
+product_discount_query = FieldsQuery(SA_ENGINE_KEY, ProductDiscount.__table__)
 
 _GRAPH = Graph(
     [
@@ -121,6 +121,43 @@ _GRAPH = Graph(
                 Field("cart_id", Integer, order_query),
                 Field("payment_option_id", Integer, order_query),
                 Field("delivery_option_id", Integer, order_query),
+                Field("delivery_info_id", Integer, resolve_order_delivery_info),
+                Field("status", Any, order_query),
+                Field("comment", Optional[String], order_query),
+                Field("date_created", Date, order_query),
+                Link(
+                    "delivery_info",
+                    Optional[TypeRef["delivery_info"]],
+                    maybe_direct_link,
+                    requires="delivery_info_id",
+                ),
+                Link(
+                    "payment_option",
+                    TypeRef["payment_option"],
+                    maybe_direct_link,
+                    requires="payment_option_id",
+                ),
+                Link(
+                    "delivery_option",
+                    TypeRef["delivery_option"],
+                    maybe_direct_link,
+                    requires="delivery_option_id",
+                ),
+            ],
+        ),
+        Node(
+            "delivery_info",
+            [
+                Field("id", Integer, delivery_info_query),
+                Field("status", Any, delivery_info_query),
+                Field("declaration_id", Optional[String], delivery_info_query),
+                Field("city", Optional[String], delivery_info_query),
+                Field("warehouse", Optional[String], delivery_info_query),
+                Field(
+                    "full_delivery_address",
+                    Optional[String],
+                    delivery_info_query,
+                ),
             ],
         ),
     ],
